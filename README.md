@@ -1,4 +1,4 @@
-# Claudya
+# Cloudya
 Internetuhr, Wetterstation und RGB-Cloud
 
 ## Inbetriebnahme:
