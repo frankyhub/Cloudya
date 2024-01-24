@@ -12,7 +12,7 @@ Internetuhr, Wetterstation und RGB-Cloud
   7. Du kannst jetzt das Webinterface zur Steuerung des Lichts etc. aufrufen indem du die IP Adresse deiner Cloudya in der Adresszeile deines Webbrowsers eingibst.
 
 
-## Electronik Verbindungen
+## Elektronik Verbindungen
 + OLED-Display 1,3": VDD an V, GND an G, SCK an SCL, SDA an SDA,
 + 4-stellige LED 0.56 Display: CLK an D18, DIO an D5, 5V an 5V, GND an GND
 + LED-Strip: Data an D14, 5V an 5V, GND an GND
