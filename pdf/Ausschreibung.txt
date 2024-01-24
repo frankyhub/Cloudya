@@ -1,0 +1,34 @@
+Cloudia - Deine erste eigene Cloud (Wochenkurs)
+
+Wollt ihr eine Internetuhr mit einer farbgesteuerten Cloud bauen? Hier arbeiten wir an einer Version mit UHR und Farb-LED-Beleuchtung, die eine Form eurer Wahl annehmen kann und euch morgens sanft mit Licht weckt.
+
+Die Form schneiden wir mit dem Lasercutter aus, verbinden das Display und den Farb-LED-Streifen mit einem Microcontroller, der sich die nötigen Daten aus dem Internet holt. Die Weckzeit und die Farben des LED-Streifens stellt ihr über einen Browser ein und am Display seht ihr Datum und Uhrzeit, die Wetterdaten der Region Tegernsee sowie das Raumklima mit Temperatur und Luftfeuchte. Die Daten werden selbstverständlich regelmäßig aktualisiert.
+
+ 
+
+Termin:
+21.08.2023 - 25.08.2023 Wochenkurs!
+
+09:00 – 16:00 Uhr
+
+ 
+
+Treffpunkt:
+FabLab Gmund
+
+Tölzer Str. 3a
+
+83703 Gmund
+
+ 
+
+Alter: 10-12 Jahre
+
+Max. Teilnehmerzahl: 8 Personen
+
+ 
+
+Teilnahmegebühr
+202 € (davon 38€ Materialkosten)
+Wichtige Information:
+Nehmt euch am besten für jeden Tag etwas Verpflegung mit. Es werden zwischendurch Pausen gemacht.

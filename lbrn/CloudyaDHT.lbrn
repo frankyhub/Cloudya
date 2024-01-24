@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnProject AppVersion="1.0.06" FormatVersion="0" MaterialHeight="0" MirrorX="False" MirrorY="True">
+    <Thumbnail Source="iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAACXBIWXMAABYlAAAWJQFJUiTwAAAgAElEQVR4nO3deVhV5b4H8O9ae0YBmUeZRQUVSCShBCVNxSMhop5MMwec0q6a5aw5peXU9dycKqcsB9I8FzU9pF68mbORSogDKoiGgoAiM/t3/9iXfdwCMou2fp/n2Q+btd71vi/D+u41vksgIgJjTJLEpu4AY6zpcAAwJmEcAIxJGAcAYxLGAcCYhHEAMCZhHACMSRgHAGMSxgHAmIRxADAmYRwAjEkYBwBjEsYBwJiEcQAwJmEcAIxJGAcAYxLGAcCYhHEAMCZhHACMSRgHAGMSxgHAmIRxADAmYRwAjEkYBwBjEsYBwJiEcQAwJmEcAIxJGAcAYxLGAcCYhHEAMCZhHACMSRgHAGMSxgHAmIRxADAmYRwAjEkYBwBjEsYBwJiEcQAwJmEcAIxJGAcAYxLGAcCYhHEAMCZhHACMSRgHAGMSxgHAmIRxADAmYRwAjEkYBwBjEsYBwJiEcQAwJmEcAIxJGAcAYxLGAcCYhHEAMCZhHACMSRgHAGMSxgHAmIRxADAmYRwAjEkYBwBjEsYBwJiEcQAwJmEcAIxJGAcAYxLGAcCYhHEAMCZhHACMSRgHAGMSxgHAmIRxADAmYRwAjEkYBwBjEsYBwJiEcQAwJmEcAIxJGAcAYxLGAcCYhHEAMCZhHACMSRgHAGMSxgHAmIRxADAmYRwAjEkYBwBjEsYBwJpUYWFhU3dB0jgAniMiQnR0NH755RcAwLRp03Dw4EGcPHkSAJCfn19hmR07dmDAgAHo27cvkpOTa9zW/PnzYW9vj+LiYv200tJSFBYWYufOnYiOjsa9e/fw8ccfIyYmRl9m6dKlsLOz06+YJ06cQPv27fHpp5+itLS0Tj/30+bMmYOuXbti/vz5MDc3R1paWo2We7qvABATE4NBgwZh2bJlaNmyJX744QcAwL179wzKbd26FaIoYurUqYiOjkZpaSnu3Lmjn1/Tn62goED//ubNmzVa5oVG7LkpLi4mAASA/P39SRRFEkWRTExMSK1Wk7m5OU2fPp0EQaCPPvqIBg4cSI6OjmRubk6CIFB0dDRFRkbSe++9R4GBgTR69GiaPn06tW/fnmbMmEH9+/enUaNG0eDBg/XtqNVq+vDDD8nb25sEQSBra2sSBIEA0JYtW0gQBNJoNCQIApmYmOiXEwSBpkyZQsHBwSSKIgEgExMTWr9+PQmCQOPHj6chQ4bQJ598QqNGjSJBEGjZsmXUrFkzUiqVdOfOHdq7dy+1atWKFAoFRUVF0c6dOykqKkpf35NtCYJAlpaWNHr0aJo/fz716dOHOnbsSIIg0NKlS8nKyooEQaCgoCBSqVQ0f/58io+P1y9b/jMJgkAdOnQgQRBo8ODB9PHHH1NgYGCF9tzc3PRl5HI5yWQy2rNnDwmCQD4+PhQeHk7Tp0+nKVOm6P9OBw4cIEEQqGPHjtSrVy8SRZFWrFhB33zzDW3bto3WrFlDGo2GJkyYQG+88QYBoPfff7+p/+2eiQPgOSotLTX4R6zJSxAEat26NRkbG5Moigb/6IIgkCiKJJPJSKFQkCAIJJPJyNXVtdp6RVGkw4cPk1KpfGbbCoWCTE1NDaY9+fXp909O8/b2NvjexMREX+eTK+3Ty3l6elYIiZr8nqqa9vS8yso+/ZLJZGRnZ1ej9mQyGcnl8irLxsbGNvW/XpUEIqJqNhJYAykrK4NcLoe1tbXBJqogCKjsz+Dl5YUrV65AEASMHj0aX375pb6sSqVCUVERAMDFxUW/OSoIAgYNGoSYmBiUlZVV2g9BEKBSqdCzZ08cOXIE+fn5EEURJSUl+vqf7JNMJjOo68m2q+q7KIowMTFBTk6OQTkjIyM0b94c9+/fhyAI0Gq1FZZ9sr0n26rqZyEiyOVylJWVVdpnURRhZ2eH9PR0eHp64sqVKwbLA6jyZ31W38rJ5XIIgoCSkhKD6c2bN0deXh4ePnwIY2PjKutsKCtWrMD3338PNze3asteunQJq1evhrzRe8X0yv9xWrRoYRAAT65AT66Af/zxB5RKJUpKShAZGYk1a9bov3dxcdEfEwgNDcXGjRuhUCig1WqxY8cOAICJiQkePnxo0Ify+gsLC/HPf/4TgiBAEARYWlrizz//NAiX8nkmJibIzs7WL18+T61Wo6yszOA4w5MePXqkf6/RaJCfn4+CggK4urri3r17CA8Px759+0BE+iAQBEH/exIEAdbW1khPT9fP12g0+v3wJ39X5St/+QpdXoeRkRGICPfv3wcA2NraGgQAERnU+ayVv7L5SqUSv/zyC+RyOcLDw3H79m39PFtbW1y7du25rPyA7jhGixYtMGjQoGrLXrhwQRecz6Ff7P8plUocOHAA9vb2SE9Px7hx4zBjxgx8/PHHyMvLw65du+Dn5wcfHx/Ex8dj3759cHd3R2lpKQIDA3HkyBGUlpZCpVLBxcUFv//+OwRBQEBAAKKioiCXyyGKIoqKilBaWoqAgACMGzcOzs7OGD9+PDp16oRr167B1dUVK1euhJ2dnX4FdnNzw/3795Gfn4+goCAMHz4cAwcORIsWLeDu7o63334bVlZWOHjwIHx8fLBlyxao1Wo0b94cubm5+Pzzz/Hpp59i0qRJyMvLw+rVq/HBBx8gPj4e77zzDr777jsIgoApU6Zg5MiRSE1NhZeXF9atW4eLFy9i7ty5mDFjBnx9feHl5YU1a9agRYsWsLe3R35+Pg4dOoSWLVsiNDQUu3btQo8ePeDq6org4GAsXLgQbm5uWL9+PebNm4eTJ09i4sSJ2LdvH4yMjFBUVISCggKkpaXB398fly9fxrx58+Dt7Y2QkBA4OTmhqKgIffr00YfIq6++Cq1Wi+XLl6N3795YuXIlxo4dq5+flJSE8ePHIy4uDqKoO5aempqKyMhIWFhYIDIyEg4ODgYHGhubpaUlXF1dERUVVW3ZFStWwMTEBLwL8AK4efMmHj16hPbt2zd1V57pyU/YmsjMzMT169fh7++PuLg4WFhYoFOnTo3Yw38rKiqCSqWq1TLZ2dnw8PDA5cuXYWVlVel8T09PJCcnw9zcvKG62mC++eYbnDhxAl9//bV+mqOjI5o1a4bCwkLExcXB09MTABAYGIhVq1bxFkBTOHPmDGJjY7FgwQIAun34l0FtVn5A94lkaWkJAOjVq1djdKlKtV35AcDMzAxZWVnPnF++K/EyMDU1NdgFfPz4cYUyfB3Ac/b3v/8dAQEBWLhwIZo1awalUolhw4Zh06ZNFcqamppCJpMZTPvyyy+fV1fZS+7EiRMG3z99DQXAAfBcTZs2DTt37tR/kubn56OsrAxbt27FiBEjYGRkBCsrK4iiCKVSiYcPH0Kr1cLU1BReXl4QRRETJkyATCbjK+hYtbp162bw/Z49eyqU4QB4jnx8fADoNiXDwsIqnAYrKCjQX5FWfkoO0B1Nv379uv5sgVar1V9NyFhVLl26pH/fsmVLJCUlVSjDxwCeo8GDB2Po0KF48OABDhw4AKDiefTy8+bAv08PElGFc8zNmjV7Dj1mjWngwIE4fvx4vQ8oFhUVoaioCHPnzjWYvnv3bv37+/fv4+TJkwgMDDQowwHwnO3atQtRUVEQBAFBQUHIzs5GcnIytFotunTpgmPHjkGtVqNr1644ePAgRFGscA5coVBUevENe7k4OjoiMjISY8aMqVc9f/zxBxYuXFhhepcuXfTvCwsLDa7LKMcB8Jz1798fubm5SEtLg7e3d4X56enpcHBwAKA7r/z3vy/FiRNrsXnzZrz77ru4f/9+paeo2Mtn//79uHnzJnbs2IHc3Fzs3bsXYWFhta6nqlOeT3/a9+/fv0II8DGA5+yzzwBTUxMold7w8wN+/x3o1g24exfw8wPS0hxQ/ne7dcsJJ06sAZCGcePexR9/ABMn6lb+Dz4A3n8f+PNPQKkE/vUvQK0GZDJg8mSgtBRwcgLmzgUEATh4EHj4EMjNbbqfnRmytbWFv78/kpKS4OHhAUdHx2qX+e233wAAGRkZ1ZaNj483+L6yswB8M9BzJgi6F/DsV2AgkZFR5fOaN9d9fVZd5dNFkUgm+/f3CgVRfHxT/xYYEenvSJTL5SQIAv34449ERBQREUGdO3emli1bEgAyMzMjuVyuv0FKo9EQABoyZAgREZ09e5Y6duxIX3/9NY0cOVJf/7Vr1/Q3kImiSBcuXNDP69y5M504cYJ4F+A5UqsBuRwoP54nCLrVtdyT3yckAC1aAE8PESAIQF6e7n152SeXK39PBCgUurZEERg+HNi8GZgwAQgObrQfkdXC22+/DYVCgVmzZqGsrEy/GX/kyBHk5eXpj/2U34dRrvy+hW3btmH27NlV1l9YWKi/nwOofLwJ3gV4Tu7eBWxsdC9At6K6uOi+CoJu093ZWfdeoQD69gVatjSso3zlfvKCPEEAWrfWLe/oCFhb694Lgm7lL19m40bd1yeuEmVNTBAEyGQyyOVyg314URQrvery6WkajQatW7eusn5vb2+UlpbqX6+++mqFMrwF8JzY2QG3bgExMcDKlYBGo9tHd3DQrZiPHgE+PoCtLdC8OdClC7BjB2BiAjx+DERFAXv2AFot8NNPwHvvAffvAz16AK6ugJkZ4Omp2/dPSQHeeQeYOBGYNQvYuhVo2xZwdwequdmNPUc5OTkoKyvD9evXAQC3b99GYGAgnJ2dkZGRgczMTJSWlkIQBDg6OmLevHkYNWoUAEChUKBVq1aV1ltcXKw/baxQKKBUKgHorgXIyspCcXHxvy8/f757PawutFqis2eJevQgunnz39OLi5uuT6z+WrVqRRqNhtzd3cnd3Z1kMhklJiYalDl//rzB9zk5OVRWVmYw7eljAG+++SbJZDKSyWQUGRmpLxcWFkYxMTHUqVMnateuHR8DeFkIAtCxo+5I/5MUiqbpD2sYVlZWMDY2xoYNGwAAPXv2hImJiUEZPz8/g+9NTU2rrTc4OBidOnXC48eP4ezsrJ8uiiLUarXB/SUcAIw1kZycHKSmpmLIkCEAdAftTp48iZZPH/ypxuXLl1FQUIDMzEykpKTg9u3byMzMRElJCVxdXWFnZwcASE5Oxtq1a3Hjxg3I5XLk5uZyADDWVPz8/FBYWKj/VDc1NcXy5ctrXU9hYSGKi4uhVCrx6NEjFBQU4P79+/qrRX/88UcAurMACQkJKCoqgkaj0Q1lRvTkiSjGmJTwaUDGJIx3AV4Ab7yhO3dfg+M79Xb5MjB7NlCDcSOZBHAAvAAePgR69wY6dGj8thYv1l1LwBhQhwC4fPkytmzZgvv372PPnj0YOHAgkpOTERYWho8++qjBO3js2DGYm5vj7NmzuH79OgYPHozExMQajXz6smjRQnd5bvfujd/WN9/oLhpiDKhFAKSnp2P37t2YMWMGwsPD0aFDB/Tv3x++vr4QRRFHjhzBqlWrEBsbi44dO9a7Y8nJyfjoo49w5MgRGBsbw9nZGSUlJdi9ezeSkpLg5OSEDh06IDY2tt5tveju3QO8vIDqBg3OygLc3IC9e59Pv9jLr0YBsGDBAnz77bcIDg7G5cuX4enpiWPHjuHBgweIiYmBg4MDEhISsHPnTqxbtw5fffVVvTqVlZWFrl274q233sKcOXOwadMm5ObmIj8/H2+++Sa2b9+OCxcuYMeOHejUqRPOnDlTr/ZedDIZUFgIzJv37HKxscBzHIae/QVUGwBz5sxBSkoKDh48iJiYGDg7O2PFihWYPHkyAN2dSp988glUKhX++c9/oqCgAL169cLBgwfr3KmtW7eib9++OHDgANq1a4exY8fCx8cHGRkZOHr0KHx9fdGrVy/9gysCAgJw+vTpOrf3opPLda+uXZ9dLjlZd98AYzX2rGuVjx8/TiqViu7cuUNr1qwhS0vLZ17brFQqafv27eTu7k5r1qyp/mLoSnTv3l3/NNczZ85UWW7mzJkUEhJC27Zto969e9PGjRvr1N6LoHt3ori4qudnZxOZmBBlZlb+AnRfV6wgeuJ28Er16kX0008N23/28nrmFkBiYiL69++PmTNnIjU1tdqHIpQ/My45ORlBQUHIy8vDgAEDavzgi+zsbJw+fRparRaBgYHw9/evsuzixYtRVlaGZs2a4dKlSwgMDISXl1eltzy+7PLzdZ/sVd35aWGhm1dUBLRp83z7xl5ulV4IdPHiRYSGhmL06NEIDg5GTExMjY/wh4SE4N1338V7772HQ4cOISwsrMLQRE9LSEjAoUOHMGLECIwZMwYBAQGYMWNGtW1lZ2ejZ8+eWL16NVq0aIHXXnvtLxkA9va623wzM5/9evQIePpwSJ8+fTB16tSm6Th78T29SZCUlES9e/emqVOnUmJiInl5eZFara7VZkWrVq1IpVKRKIo0efJksre3r3KXoHzXwszMjAIDAykoKIj8/Pxq3NZ//dd/kUajobZt21J8fDw5OzvTmDFjatXfplbdLkBdTZ8+Xf8c+5SUFCLiXQBmyCAA1q9fT3Z2drRixQoaO3YsyeVyGjx4MN29e7dOlf/jH/8gmUxGy5YtIxsbG8rIyDCYn5SURC4uLnTgwAHavHkzeXp6kiiKFcpV5/fff6egoCAyNjamffv2kZGRUZ373BRqGgCzZxOFhRGNHVvx1b49UW6uYfni4mLq0qULRUdHU2lpKRFxADBD+puBtFot5HI5tm3bhjFjxsDd3R0nT56EWq2u89aFVquFTCZD586dcfLkSbzyyivo3r07PvvsMxQUFODDDz+ERqOBUqnEihUrMGnSJHz++ed1bq9nz544evQorKysUFxcjMjISKxfv77O9T0vPXoA06ZVfyHQyJG6Tf3evSvOmzRJN0JwixbPrqN3b+A//gN4zs/qZC8o/UHAY8eOQaFQYNWqVbCxsUFCQkK9KxdFET4+PkhLS4Ofnx8GDx6MlStXwszMDLa2ttizZw+WLVuGUaNGobi4uN7tdezYEYcPH4aZmRlu3ryJ3bt3Y/v27Th//jw8PDzqXX9Ts7fXDf81dmzFeR99pDtVyFht6P9lLl68CEtLS8hkMvTt27fBGjh06BBcXV1x584dPHjwAFu3bsWoUaMQEBCAkSNHYvHixVizZk2DtPXpp5/i6tWr+PHHH6FUKtGuXTusWrUKgYGBuHfvXq0fb/2iIdIdDCwqauqesL8K/VkACwsLODk5Qa1WN+iKYmNjg/z8fKSnp0MURURHR8PNzQ1nz57FjRs3kJOTA3t7+wZrLyYmBj/88AOmTJmCBw8eYMGCBTAzM8MHH3zQYG00lV9/1d3MY2pa8fX4ccUhxBmrjj4AiAiXLl3C/Pnz8dVXX+Hnn39u0Ibs7Ozw/fffIzU1FaampmjWrBkuXLiAzMzMyp9YUg8RERFYtGgRBgwYgJMnT8LW1haZmZkN2kZTOHJEN9R3YWHFl1arGxKcsdrQ7wK88847WLJkCbZs2YLDhw8jODgY48aNw/Dhw5859nhNRUdHY+fOnRg2bBju3LkDa2trpKSk4IMPPsDu3bsxdOhQ/O1vf8OgBrpRPSUlBWq1Gjk5OSgtLcUrr7zSIPU2hqIi3TX8/z86dKPKzwca4HAL+4swGBLs2rVr6NOnD0xNTbFu3Tq89dZbuH37dqUPHqwNrVaL0tJSREdHY/369XB2dsZ3330HpVKJkJAQ3Lp1C6GhoUhKSoJMJkP//v3r1d758+eRkpICURQxbtw4/Pzzz4iPj4eFhUW96m0sHh66T/F6nHCpsXv3gCVLdM8VZKzSMQHnzJmDbdu2ITQ0FFu3bsXatWvrdVzg4cOH2LJlC8zNzXHlyhWMHTsWs2fPBhHBz88PKpUKoaGhuHr1KpKSkjBr1qx6/VDHjh3Dn3/+CS8vL2zatAmxsbHPvKyYMamqNACICPv27cOCBQtw7tw5DB8+HIIgQKvVQhRFFBYWoqSkBMbGxigpKYGimgHqCwoK8D//8z/o3LkzJk+ejNdff91gfnR0NBQKBdatWwciMhi3vC60Wi2USiWMjIywcOFCvM8fd4xVqsajAn/66aeYM2cO2rRpg6SkJMjlctjZ2eHu3buYOHEiunTpgoiIiDp35M6dO7C3t9eHTFXy8vKQm5uLsrIyODk54d69e7Cu4uhXTk4OWlR3ZQxjElbtqMD37t2DqakpTp8+jR07diAmJgZarRbFxcX43//9X8TGxsLOzg4DBgyo1/n88lOBVa38CxYsgCAI6NChA5ydneHu7g53d3d4enpi4sSJlS7DKz9jz1ZtABw8eBB+fn7Yu3cvBgwYAC8vL/08Jycn9OzZE1OnTkVJSQmOHj2KH374oUE7WFRUBFEUUVZWhri4OMTFxaG0tBQlJSWIi4vDtm3bkJubC0EQcPXq1QZtm7G/vGfdKDB37lxyd3ev8Y0FW7duJW9v7zrcklC1//7v/6aIiIhqyw0bNowWLVrUoG0z9ldX5TGAnJwcWFtb1/oafQ8PDxw6dAg2NjZo3rx5vcJp2LBhOHHiBK5cuVKj8sHBwXB2dsa3335bo/IbNmyAo6MjsrKy4O7ujqCgIFy5cgWrVq2CWq3G9OnTUVxcXOtntTH20qgsFdLS0mjKlCk0c+bMWifK999/T0ZGRuTm5kbLly+vczLl5+eTXC6v9XKOjo7PHErsSUqlkuRyOcnlcvL09CRBEGjkyJEkiiIBoJCQEJLJZHTixIla94Oxl4FBAJw6dYoAkJeXF5mYmNDDhw/rVOnhw4dp7dq15OjoSEeOHKnVstu3bydra2tq3rw5zZ8/v9Ztr127ll577TW6cOFCtWWNjIxIpVKRSqXSD5whCAIpFAoSRVE/TRTFWveDsZeBfhfg6tWrePPNNzFy5Ej069cP3t7e9d66WLJkCb777jtcunSpRuUTExPRs2dPTJo0CT4+PujRo0ed2vXx8UFZWRlyc3ORlpZWZTlTU1MYGRnh0aNHePz4MZRKJYqLiyGKIkgXjvqyp0+fRqdOnerUH8ZeVPoAWLBgAVJSUrB58+YGbcDU1BSTJ0/GJ598Um3Z4OBgtGnTBhs2bGiQtrt164aysjIcO3as0vkqlQpt2rTB/v374eTkBCKCIAgQBEG/8tP/X5hUWlraIH1i7EUiEBGdPXsWAQEBKC4uhryBR5VQqVQoKSmBhYUFzp07BycnpwplLl68iOPHj2PChAkNvqK98cYbsLS0xM6dOyvM2759O5ydnREUFITs7Gy4urri559/xtGjR6FWq9G3b1/069cPP/30E2xtbRu0X4y9EIiIVq5c2egDac6dO5eMjY1p+PDhBtMnTZpExsbGJAgCyWSyRmlbrVbT119/3Sh1M/YyEwFg48aNeNzIj5SZP38+jh07hl27duHw4cMAgFmzZiEhIQGnTp3S3zHYGGbOnInExMRGqZuxl5kIAGPGjGnwTf/K+Pr6AgAUCgWSk5OxevVqLFmyBG3btm3UdokIO3bsaNQ2GHsZiYDuYR7ll9Q2NkEQYGRkBIVCgeLiYnTo0KHR2ywpKcGwYcMavR3GXjYiALRv3x7Lli3De++916iNrVy5EqIowt/fH8bGxvqj7o1t6dKl6Ny5c6O3w9jLRn8a8Pbt2/D398fw4cMRHh6OwMDABm3o9OnTCAkJwZkzZ9CuXTsAgLu7O954440GO+1XmY4dOyIgIABr165ttDYYe1lVGBKsY8eOaN26Nc6ePQu5XI6QkJB6NXDlyhWkp6dDpVJh0KBB2Lhxo35ednY22rRpg40bN6JPnz71audpZ8+eRb9+/eDv748ff/yxQetm7K+i0puBLl++jKVLlyI/Px+jR482mJ6VlYVvv/0WnTt3Rl5eHkJCQtC+ffsqG7h8+TJcXFygUqkqvbJv2rRpWLNmDfLz82Fubq7fOqirU6dOobCwEO3bt0e3bt3wxRdf1Ks+AMjPz4coivV6ShJjL6IajQiUlZWFbt26ITU1FW3btkVKSgqCg4ORmJiIhw8fIiAgAOvWratyZJ7qnDt3DhkZGbh69Sp8fHwqzL906RJ+/vlnZGRk4Pfff0dQUBBSU1Px2muvVTi4t2fPHqSmpmLv3r116ku5pKQkTJgwAVlZWbhw4QKsrKzg4uKCAQMG8NN22V9GtQHw0Ucf4YsvvoCtrS1yc3MRGhqK3NxcmJub4+jRo7CwsICvry+MjIywZcuWBu3chQsXsHPnTixduhRWVlZwcHDA9evX0b17dxQVFcHIyAgHDx5EXFwcAgICGqTN9PR0xMTEYPny5ejQoQM8PDywd+9e2NraIiMjAzk5OejevTs2bNjwwo4yzFhNVRkApaWlSEhIwFtvvQWlUomIiAisWrWqQrmEhAQMHToURkZGeOeddxAVFdUgT/oZOXIk9u3bB7VaDTMzM7z22mvo2rUr7t69i7t372L16tWIiIhAz549cerUKXz55Zf1bnPfvn2YNm0arK2t4erqim3btuH999+Hh4cHHB0dcfr0afz66684fvw41Go1Hj58WO82GWtSVV0iGBQURLa2tjRhwgSaPn36My8nXLRoEbVv357atWtHfn5+9b48cfDgwTRlyhQyNzenDRs2VFlu+fLlZG5uTkOGDKGQkJB6tbl3715q3bo1DRo0iFxcXGjBggVVlj158iSZmpqSpaUlpaWl1atdxppSpQFw/vx58vPzIxMTE1qzZk2NKnrjjTdozJgx1L59e/rHP/5R5w7t27ePFAoFOTg40AcffFBt+bi4OBIEgdzc3GjLli11avPevXvk6elJkZGR1KZNG8rLy6t2maioKGrbti35+vrWqU3GXgQGg4IWFxdj06ZNCA8PhyAI8Pf3x7hx42q0JbF582asX78e/fv3x8cffwxvb+9abyKnpaXh4sWLGDhwIFxcXGr0hKDu3btj1KhRcHNzw5QpUzBjxowaDyFWLisrC/n5+fD29kbPnj3RrFmzapdZsmQJCgoKkJ2djeXLl2PEiBG1apOxF8KTaTB9+ruwn0EAAAmiSURBVHRq3bo1hYeHEwD65ZdfapUmn332GYmiSKIokqWlJTk6OlJ8fHyNlp09ezYNHTqUlEolzZw5k8zNzWvVtr29PVlYWJCDgwN5e3vTgQMHql3m/v37FBoaSgCoV69epFarazWC0axZs0gmk5G9vT0ZGxuTpaUlFRcX16rfjDUlfQCEhYWRi4sLeXh4kL29PX311Vd1qrCwsJB+++038vX1JRcXFzIxMal2mddff51CQkLI0tKSQkNDSalU0nfffVerdq9fv07u7u5kZmZG9vb2ZG9vT//5n/9ZZfnExESaMGECde3alYYOHUrNmzent99+u1ZtarVa+tvf/kYqlYqaNWtGc+fOpcDAwFrVwVhTAhHR119/TcbGxtSyZUv68MMPG6Tifv36kaWlJQmCQK+//nqVK/S8efMoMjKSFAoFderUiYYPH06JiYl1bjcjI4MUCgV9+OGH5OLiQtevX69Q5uLFi2Rra0s9e/YkJycnGjJkSL3aJCJq27YthYeHk1KppFOnTtWrLsaeFxQWFpJMJiMANGfOnAareM+ePSQIAgmCQJGRkWRjY0ObN282KJOenk7NmjUjX19f2r17d4O0W1ZWRsbGxqRSqQgAeXt704QJEwzKuLu7U6dOncjR0bFGuwo1MX36dP0gohqNhhYuXNgg9TLWmBAbG0tubm5kY2NDSUlJDVr5/v37SaPRkFKppDlz5lBQUBClpqbq5x8+fJgUCgUpFIoGbXfRokUkl8tJJpPRO++8Q9bW1rRy5UoiIrp58yYFBQWRiYkJ7dq1q8HaLC4uJiMjIwJAarWalEoljRs3rsHqZ6wx4ODBg6TRaMjExIRu3rzZKI3Ex8eTTCajbt26Ub9+/fTTZ82aRZaWluTk5NTgbW7atImCg4NJLpdTREQEOTo60p9//kkpKSmk0WhILpdTRkZGg7aZl5dHM2fOpO+//57s7e1JLpfT1q1bG7QNxhoSiIjMzc3J2Ni4zgf+aqJPnz7k4eFhcFBw8+bN5O/vT9bW1o3WLhGRRqMhDw8PmjVrFpWUlJBcLicXFxeKi4trtDZ37txJGo2GfHx8Gq0NxupLBIBx48ZBqVRixowZ2L17d6Ocbrxz5w5ycnLg5+enn1ZQUICrV6/CwcGhUc+jOzk5oaCgAElJSXj8+DE0Gg3Cw8MRFhbWaG0mJydDo9EgPT290dpgrL709wJ4e3tDpVLhzp07cHR0REFBASIiIiAIQoWVNj09HdOmTcO5c+fwr3/9C56envr5RIRdu3Zh5MiRAIDRo0cjNzcXCoUCarUaW7ZsQWhoqL58hw4d0KpVK5w6dQozZ87E+PHjG/QHnDFjBr744gt4eXnB3t4esbGxmDdvHmJjY9GxY0fs2rULf/zxBxwcHBq0XZlMhhEjRuDw4cM4deoUrKysGrR+xhqCwc1AI0aMQHJyMoyMjHD48GFYWFhAo9EY3Gn38OFDnD9/HpmZmViyZAm+/PJLg+G2SHdgEYGBgSgpKcHp06cRFhaGpKQk9O7dG6tXrzbowI0bNxAVFYX09HSUlJToxyV0cnKCqakpPDw89GWzs7OhUqmwf/9+zJkzB4cOHYKzs7NB386ePYvw8HDcu3cPP/30ExQKBQoLC2Fubo7ffvsNLi4uAICIiAj8+uuv6Nu3L7Zv347CwkI4ODiguLgYQUFBBn08ffo0bt26hWvXrqF37976wU3LxcfHo1OnTrC2tsbhw4dRVFQErVYLuVyOyZMnY+bMmXX9+zDWqAyGAv78888xe/Zs7Nq1C6Q7RQhfX1/88MMP+jKJiYkYNGgQAMDT0xOdO3c2mF9cXAyVSoVbt24BAMrKyvDHH3/g1VdfrbDyA4CrqyvOnTuHOXPm4KuvvoKLiwtu3LgBhUKB1q1bIyoqSl/2zJkzOHHiBADdQJ+2trb6vgDA9evXcenSJRQUFODRo0cwNTWFjY0NTExMsHbtWv3KDwB79+5FRkYGPD09ERYWht27d6OkpASWlpYVxhiIjY3VPyno8ePHFeYnJCSgrKwMhYWFyMzMhLm5OSwtLbF48WK89dZbNfgzMNY0DALA0tIS69atw7p165CdnY01a9agoKCgVhXKZDLIZDLcvHlTP+327dtwdHR85nILFy7Em2++ialTpyItLQ0KhQJt2rQxCIDy4cQBwMrKCp6engbzz507h6VLl8LR0RHGxsbIyspCYGAgFi9eDBsbmwpt2tjYICEhAevWrYNCoYCdnR3KysoQERFhUK78cWEajQZGRkYV5k+cOBGurq6wsbGBi4sLevTogUmTJqFVq1Y1/r0x1hSqfBiAmZkZsrKycOfOHezfv18/PTU1Ffn5+QCAnJwc/PnnnwbztVqtwUM1AVS78pfr0qULTp06BQAYPny4wSd2TbRo0QIWFhZYvnx5jZdxdXXFZ599hs8++wyHDh2qdMyD6lhaWuL999+Hr68vFi1aVOvlGWsqz3waiFarRXJyssGIugUFBfq75UpKSpCVlWUwn4jqPDTYk65cuYLk5GT9U4QA3d2CWVlZAHRjDR4/fhwZGRn6+Y8ePdLPr4sbN27gwoULePvttw2ml5WVQavV4sGDB8jMzKww/9atW7h7926FYwOMveieGQDVDag5duxYjB07tkE7VO69997Do0ePDMLkwYMH+vcRERFwdnY22EooLCyEl5dXndsMCgpCdHR0hScV2djYQC6Xw9HREePHj8crr7xiMN/V1bVe7TLWVGo0KChj7K9JrL4IY+yvigOAMQnjAGBMwjgAGJMwDgDGJIwDgDEJ4wBgTMI4ABiTMA4AxiSMA4AxCeMAYEzCOAAYkzAOAMYkjAOAMQnjAGBMwjgAGJMwDgDGJIwDgDEJ4wBgTMI4ABiTMA4AxiSMA4AxCeMAYEzCOAAYkzAOAMYkjAOAMQnjAGBMwjgAGJMwDgDGJIwDgDEJ4wBgTMI4ABiTMA4AxiSMA4AxCeMAYEzCOAAYkzAOAMYkjAOAMQnjAGBMwjgAGJMwDgDGJIwDgDEJ4wBgTMI4ABiTMA4AxiSMA4AxCeMAYEzCOAAYkzAOAMYkjAOAMQnjAGBMwjgAGJMwDgDGJIwDgDEJ4wBgTMI4ABiTMA4AxiSMA4AxCeMAYEzCOAAYkzAOAMYkjAOAMQnjAGBMwjgAGJMwDgDGJIwDgDEJ4wBgTMI4ABiTMA4AxiSMA4AxCeMAYEzCOAAYkzAOAMYkjAOAMQnjAGBMwjgAGJMwDgDGJIwDgDEJ4wBgTMI4ABiTMA4AxiSMA4AxCeMAYEzCOAAYkzAOAMYk7P8ABMLHPJA+o0UAAAAASUVORK5CYII="/>
+    <VariableText>
+        <Start Value="0"/>
+        <End Value="999"/>
+        <Current Value="0"/>
+        <Increment Value="1"/>
+        <AutoAdvance Value="0"/>
+    </VariableText>
+    <UIPrefs>
+        <Optimize_ByLayer Value="1"/>
+        <Optimize_ByGroup Value="2"/>
+        <Optimize_ByPriority Value="0"/>
+        <Optimize_WhichDirection Value="0"/>
+        <Optimize_InnerToOuter Value="1"/>
+        <Optimize_ByDirection Value="0"/>
+        <Optimize_ReduceTravel Value="1"/>
+        <Optimize_HideBacklash Value="0"/>
+        <Optimize_ReduceDirChanges Value="0"/>
+        <Optimize_ChooseCorners Value="0"/>
+        <Optimize_AllowReverse Value="1"/>
+        <Optimize_RemoveOverlaps Value="0"/>
+        <Optimize_OptimalEntryPoint Value="1"/>
+    </UIPrefs>
+    <CutSetting type="Cut">
+        <index Value="0"/>
+        <name Value="Zeichnung"/>
+        <minPower Value="100"/>
+        <maxPower Value="100"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="20"/>
+        <speed Value="10"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="0"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="0"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="2"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0"/>
+        <perfSkip Value="0"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.1"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.1"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="1"/>
+        <limitMaxTabs Value="0"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <usePen Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="0"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.24"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="1"/>
+        <name Value="L2"/>
+        <minPower Value="10"/>
+        <maxPower Value="10"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="1"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="0"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="0"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="2"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0"/>
+        <perfSkip Value="0"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.1"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.1"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="-1"/>
+        <limitMaxTabs Value="0"/>
+        <tabSpacing Value="1.1"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <usePen Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.2"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="3"/>
+        <name Value="Schnit 10-100"/>
+        <minPower Value="100"/>
+        <maxPower Value="100"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="10"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="2"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="0"/>
+        <hide Value="1"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.01"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="-1"/>
+        <limitMaxTabs Value="0"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <usePen Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.1"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <Shape Type="Text" CutIndex="1" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="4mm Sperrholz" H="25" LS="0" LnS="0" Ah="1" Av="1" Weld="1">
+        <XForm>1 0 0 1 81.2077 -34.9153</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Cloudya" H="25" LS="0" LnS="0" Ah="1" Av="1" Weld="1">
+        <XForm>1 0 0 1 45.5838 -65.4247</XForm>
+    </Shape>
+    <Shape Type="Group" CutIndex="0">
+        <XForm>1 0 0 1 0 0</XForm>
+        <Children>
+            <Shape Type="Group" CutIndex="0">
+                <XForm>1 0 0 1 2.82776 -4.3959</XForm>
+                <Children>
+                    <Shape Type="Rect" CutIndex="0" W="13.7917" H="10" Cr="0">
+                        <XForm>1 0 0 1 687.45 -33.8088</XForm>
+                    </Shape>
+                    <Shape Type="Rect" CutIndex="0" W="94.999939" H="55" Cr="0">
+                        <XForm>1 0 0 1 727.909 -21.1811</XForm>
+                    </Shape>
+                    <Shape Type="Rect" CutIndex="0" W="18.585571" H="10" Cr="0">
+                        <XForm>1 0 0 1 689.807 -3.80644</XForm>
+                    </Shape>
+                </Children>
+            </Shape>
+            <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="ESP32" H="16.275429" LS="0" LnS="0" Ah="1" Av="1" Weld="1">
+                <XForm>1 0 0 1 737.628 -28.5699</XForm>
+            </Shape>
+        </Children>
+    </Shape>
+    <Shape Type="Group" CutIndex="0">
+        <XForm>-4.37114e-8 -1 1 -4.37114e-8 840.674 684.478</XForm>
+        <Children>
+            <Shape Type="Group" CutIndex="0">
+                <XForm>1 0 0 1 2.82776 -4.3959</XForm>
+                <Children>
+                    <Shape Type="Rect" CutIndex="0" W="13.7917" H="10" Cr="0">
+                        <XForm>1 0 0 1 687.45 -33.8088</XForm>
+                    </Shape>
+                    <Shape Type="Rect" CutIndex="0" W="94.999939" H="55" Cr="0">
+                        <XForm>1 0 0 1 727.909 -21.1811</XForm>
+                    </Shape>
+                    <Shape Type="Rect" CutIndex="0" W="18.585571" H="10" Cr="0">
+                        <XForm>1 0 0 1 689.807 -3.80644</XForm>
+                    </Shape>
+                </Children>
+            </Shape>
+            <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="ESP32" H="16.275429" LS="0" LnS="0" Ah="1" Av="1" Weld="1">
+                <XForm>1 0 0 1 737.628 -28.5699</XForm>
+            </Shape>
+        </Children>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="https://www.festi.info/boxes.py/RoundedBox?language=en" H="25" LS="0" LnS="0" Ah="1" Av="1" Weld="1">
+        <XForm>1 0 0 1 322.796 -103.991</XForm>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1 -243.795 247.524</XForm>
+        <V vx="745.27594" vy="-48.153648" c0x="726.72418" c0y="-48.14119" c1x="762.85028" c1y="-48.152359"/>
+        <V vx="705.93359" vy="-17.595308" c0x="692.12048" c0y="-15.940884" c1x="710.53577" c1y="-35.567139"/>
+        <V vx="681.71082" vy="9.6831293" c0x="681.7171" c0y="23.89204" c1x="681.72028" c1y="-4.2286901"/>
+        <V vx="706.70306" vy="37.048382" c1x="692.55121" c1y="35.755665"/>
+        <V vx="706.70306" vy="37.17189"/>
+        <V vx="709.10657" vy="37.17189" c0x="709.13879" c0y="37.173153"/>
+        <V vx="709.20319" vy="37.175507" c0x="709.23535" c0y="37.174355" c1x="709.1712" c1y="37.17437"/>
+        <V vx="709.2998" vy="37.17189" c1x="709.26782" c1y="37.173141"/>
+        <V vx="802.18976" vy="37.17189"/>
+        <V vx="802.18976" vy="37.031845" c0x="812.86261" c0y="37.031086"/>
+        <V vx="821.51416" vy="17.705894" c0x="821.51459" c0y="12.581858" c1x="821.51428" c1y="28.378761"/>
+        <V vx="815.85486" vy="4.0414186" c0x="812.23083" c0y="0.41680068" c1x="819.47888" c1y="7.6660357"/>
+        <V vx="802.18823" vy="-1.620056" c0x="801.92047" c0y="-1.6156253" c1x="807.31537" c1y="-1.6196947"/>
+        <V vx="801.38568" vy="-1.5900837" c0x="801.39026" c0y="-1.6902139" c1x="801.65289" c1y="-1.6056331"/>
+        <V vx="801.39703" vy="-1.8908405" c0x="801.39703" c0y="-11.680424" c1x="801.39404" c1y="-1.790634"/>
+        <V vx="783.89783" vy="-20.151741" c0x="778.43268" c0y="-36.85471" c1x="793.68195" c1y="-19.732903"/>
+        <P T="B" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="B" p0="9" p1="10"/>
+        <P T="B" p0="10" p1="11"/>
+        <P T="B" p0="11" p1="12"/>
+        <P T="B" p0="12" p1="13"/>
+        <P T="B" p0="13" p1="14"/>
+        <P T="B" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1 -243.795 247.524</XForm>
+        <V vx="745.27539" vy="-39.59758" c1x="731.16681" c1y="-39.585018"/>
+        <V vx="745.28107" vy="-39.59758" c0x="758.69562" c0y="-39.594234"/>
+        <V vx="775.7655" vy="-17.491955" c0x="776.87457" c0y="-14.102191" c1x="771.59387" c1y="-30.241529"/>
+        <V vx="783.53302" vy="-11.603425" c0x="788.48071" c0y="-11.391774" c1x="779.96973" c1y="-11.755746"/>
+        <V vx="792.83997" vy="-1.8908405" c1x="792.83972" c1y="-6.8430772"/>
+        <V vx="792.84198" vy="-1.9843749" c0x="792.73047" c0y="0.43532333"/>
+        <V vx="795.37152" vy="4.4925976" c0x="797.09344" c0y="6.19626" c1x="793.64966" c1y="2.7889345"/>
+        <V vx="801.87506" vy="6.9530635" c0x="801.9837" c0y="6.9468346" c1x="799.45667" c1y="7.0903478"/>
+        <V vx="802.20111" vy="6.9396276" c0x="807.83429" c0y="6.9479985" c1x="802.09235" c1y="6.9425602"/>
+        <V vx="812.95703" vy="17.704861" c0x="812.95715" c0y="23.343538" c1x="812.9566" c1y="12.070852"/>
+        <V vx="802.18921" vy="28.474747" c0x="802.07501" c0y="28.519167" c1x="807.82788" c1y="28.474293"/>
+        <V vx="801.84973" vy="28.615307" c1x="801.96185" c1y="28.566021"/>
+        <V vx="709.30084" vy="28.615307" c0x="709.26898" c0y="28.615814"/>
+        <V vx="709.20526" vy="28.617373" c0x="709.17279" c0y="28.616501" c1x="709.23718" c1y="28.616505"/>
+        <V vx="709.1076" vy="28.615307" c1x="709.14008" c1y="28.615808"/>
+        <V vx="707.65808" vy="28.615307" c0x="707.59912" c0y="28.585342"/>
+        <V vx="707.48029" vy="28.527456" c0x="698.18518" c0y="27.678669" c1x="707.53986" c1y="28.556047"/>
+        <V vx="690.2674" vy="9.6893301" c1x="690.27734" c1y="19.022646"/>
+        <V vx="690.2674" vy="9.6836462"/>
+        <V vx="690.2674" vy="9.679512" c0x="690.27869" c0y="0.52491319"/>
+        <V vx="706.95111" vy="-9.0997028" c0x="710.45782" c0y="-9.5198746" c1x="697.86102" c1y="-8.0109148"/>
+        <V vx="714.22253" vy="-15.47244" c0x="717.72235" c0y="-29.140192" c1x="713.34607" c1y="-12.051196"/>
+        <P T="L" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="B" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="B" p0="7" p1="8"/>
+        <P T="B" p0="8" p1="9"/>
+        <P T="B" p0="9" p1="10"/>
+        <P T="B" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="B" p0="12" p1="13"/>
+        <P T="B" p0="13" p1="14"/>
+        <P T="L" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="16"/>
+        <P T="B" p0="16" p1="17"/>
+        <P T="L" p0="17" p1="18"/>
+        <P T="L" p0="18" p1="19"/>
+        <P T="B" p0="19" p1="20"/>
+        <P T="B" p0="20" p1="21"/>
+        <P T="B" p0="21" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>-1 8.74228e-8 -8.74228e-8 -1 1117.6 396.89</XForm>
+        <V vx="708.02655" vy="148.30344" c0x="689.47479" c0y="148.3159"/>
+        <V vx="668.68427" vy="178.86177" c0x="654.87115" c0y="180.51617" c1x="673.28638" c1y="160.88995"/>
+        <V vx="644.46143" vy="206.14021" c0x="644.46887" c0y="220.35139" c1x="644.47089" c1y="192.22838"/>
+        <V vx="669.45374" vy="233.50546" c1x="655.30402" c1y="232.21413"/>
+        <V vx="669.45374" vy="233.62897"/>
+        <V vx="671.85718" vy="233.62897" c0x="671.88947" c0y="233.63036"/>
+        <V vx="671.9538" vy="233.63297" c0x="671.98621" c0y="233.63167" c1x="671.92139" c1y="233.63168"/>
+        <V vx="672.04993" vy="233.62897" c1x="672.0174" c1y="233.63037"/>
+        <V vx="679.42517" vy="233.62897"/>
+        <V vx="679.42517" vy="248.25856"/>
+        <V vx="706.96301" vy="248.25856"/>
+        <V vx="706.96301" vy="227.38283"/>
+        <V vx="679.42517" vy="227.38283"/>
+        <V vx="679.42517" vy="227.58437"/>
+        <V vx="672.05145" vy="227.58437" c0x="672.01886" c0y="227.58476"/>
+        <V vx="671.95374" vy="227.58636" c0x="671.92194" c0y="227.58545" c1x="671.98627" c1y="227.58543"/>
+        <V vx="671.85815" vy="227.58437" c1x="671.89001" c1y="227.58478"/>
+        <V vx="670.20966" vy="227.58437" c0x="670.14191" c0y="227.54932"/>
+        <V vx="670.00452" vy="227.48309" c0x="659.47534" c0y="226.52161" c1x="670.07355" c1y="227.51556"/>
+        <V vx="650.50854" vy="206.14331" c1x="650.51685" c1y="216.71603"/>
+        <V vx="650.50854" vy="206.13931"/>
+        <V vx="650.50854" vy="206.13731" c0x="650.51923" c0y="195.76752"/>
+        <V vx="669.40509" vy="184.8642" c0x="671.88293" c0y="184.56778" c1x="659.10858" c1y="186.09749"/>
+        <V vx="674.54382" vy="180.36215" c0x="678.31775" c0y="165.62411" c1x="673.92413" c1y="182.77951"/>
+        <V vx="708.02808" vy="154.34824" c1x="692.81464" c1y="154.36058"/>
+        <V vx="708.02606" vy="154.34772"/>
+        <V vx="708.03009" vy="154.34772" c0x="722.49518" c0y="154.34972"/>
+        <V vx="740.90356" vy="178.18607" c0x="741.68738" c0y="180.5808" c1x="736.40521" c1y="164.43805"/>
+        <V vx="746.3916" vy="182.34601" c0x="752.6095" c0y="182.612" c1x="743.87415" c1y="182.23836"/>
+        <V vx="758.09839" vy="194.54527" c0x="758.09778" c0y="194.55768" c1x="758.08508" c1y="188.32292"/>
+        <V vx="758.09839" vy="194.58247" c0x="758.01764" c0y="196.29625" c1x="758.09741" c1y="194.57007"/>
+        <V vx="759.88959" vy="199.16914" c0x="761.11035" c0y="200.37465" c1x="758.66882" c1y="197.96364"/>
+        <V vx="764.49847" vy="200.9025" c0x="764.65491" c0y="200.89349" c1x="762.78583" c1y="201.00478"/>
+        <V vx="764.96771" vy="200.8849" c0x="771.91028" c0y="200.9016" c1x="764.8111" c1y="200.8887"/>
+        <V vx="778.22119" vy="214.16214" c0x="778.22137" c0y="221.1153" c1x="778.22137" c1y="207.21782"/>
+        <V vx="764.94189" vy="227.4435" c0x="764.82733" c0y="227.48689" c1x="771.89508" c1y="227.44293"/>
+        <V vx="764.60236" vy="227.58406" c1x="764.71411" c1y="227.53377"/>
+        <V vx="749.30048" vy="227.58406"/>
+        <V vx="749.30048" vy="227.38252"/>
+        <V vx="721.76263" vy="227.38252"/>
+        <V vx="721.76263" vy="248.25826"/>
+        <V vx="749.30048" vy="248.25826"/>
+        <V vx="749.30048" vy="233.62866"/>
+        <V vx="764.93982" vy="233.62866"/>
+        <V vx="764.93982" vy="233.48862" c0x="775.61273" c0y="233.48785"/>
+        <V vx="784.26422" vy="214.16266" c0x="784.26422" c0y="209.0369" c1x="784.26434" c1y="224.83553"/>
+        <V vx="778.6037" vy="200.49695" c0x="774.97937" c0y="196.87265" c1x="782.22809" c1y="204.12125"/>
+        <V vx="764.93823" vy="194.8367" c0x="764.67053" c0y="194.84114" c1x="770.06366" c1y="194.83659"/>
+        <V vx="764.13568" vy="194.8667" c0x="764.14032" c0y="194.76642" c1x="764.40295" c1y="194.85115"/>
+        <V vx="764.14709" vy="194.56593" c0x="764.14514" c0y="184.77289" c1x="764.14417" c1y="194.66628"/>
+        <V vx="746.64844" vy="176.30504" c0x="741.18323" c0y="159.60207" c1x="756.42865" c1y="176.72205"/>
+        <V vx="708.02649" vy="148.30313" c1x="725.60083" c1y="148.30441"/>
+        <P T="B" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="L" p0="9" p1="10"/>
+        <P T="L" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="L" p0="12" p1="13"/>
+        <P T="L" p0="13" p1="14"/>
+        <P T="B" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="17"/>
+        <P T="B" p0="17" p1="18"/>
+        <P T="B" p0="18" p1="19"/>
+        <P T="L" p0="19" p1="20"/>
+        <P T="L" p0="20" p1="21"/>
+        <P T="B" p0="21" p1="22"/>
+        <P T="B" p0="22" p1="23"/>
+        <P T="B" p0="23" p1="24"/>
+        <P T="L" p0="24" p1="25"/>
+        <P T="L" p0="25" p1="26"/>
+        <P T="B" p0="26" p1="27"/>
+        <P T="B" p0="27" p1="28"/>
+        <P T="B" p0="28" p1="29"/>
+        <P T="B" p0="29" p1="30"/>
+        <P T="B" p0="30" p1="31"/>
+        <P T="B" p0="31" p1="32"/>
+        <P T="B" p0="32" p1="33"/>
+        <P T="B" p0="33" p1="34"/>
+        <P T="B" p0="34" p1="35"/>
+        <P T="B" p0="35" p1="36"/>
+        <P T="L" p0="36" p1="37"/>
+        <P T="L" p0="37" p1="38"/>
+        <P T="L" p0="38" p1="39"/>
+        <P T="L" p0="39" p1="40"/>
+        <P T="L" p0="40" p1="41"/>
+        <P T="L" p0="41" p1="42"/>
+        <P T="L" p0="42" p1="43"/>
+        <P T="L" p0="43" p1="44"/>
+        <P T="B" p0="44" p1="45"/>
+        <P T="B" p0="45" p1="46"/>
+        <P T="B" p0="46" p1="47"/>
+        <P T="B" p0="47" p1="48"/>
+        <P T="B" p0="48" p1="49"/>
+        <P T="B" p0="49" p1="50"/>
+        <P T="B" p0="50" p1="51"/>
+        <P T="L" p0="51" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1 -173.206 -126.427</XForm>
+        <V vx="554.59955" vy="151.87212" c0x="536.04779" c0y="151.88458"/>
+        <V vx="515.25726" vy="182.43045" c0x="501.44415" c0y="184.08487" c1x="519.85938" c1y="164.45863"/>
+        <V vx="491.03445" vy="209.70889" c0x="491.04187" c0y="223.92009" c1x="491.04388" c1y="195.79707"/>
+        <V vx="516.02673" vy="237.07416" c1x="501.87701" c1y="235.78282"/>
+        <V vx="516.02673" vy="237.19766"/>
+        <V vx="518.43024" vy="237.19766" c0x="518.46252" c0y="237.19905"/>
+        <V vx="518.52686" vy="237.20166" c0x="518.55927" c0y="237.20036" c1x="518.49445" c1y="237.20038"/>
+        <V vx="518.62299" vy="237.19766" c1x="518.59045" c1y="237.19907"/>
+        <V vx="525.99823" vy="237.19766"/>
+        <V vx="525.99823" vy="251.82726"/>
+        <V vx="553.53601" vy="251.82726"/>
+        <V vx="553.53601" vy="230.95152"/>
+        <V vx="525.99817" vy="230.95152"/>
+        <V vx="525.99817" vy="231.15306"/>
+        <V vx="518.62445" vy="231.15306" c0x="518.59186" c0y="231.15346"/>
+        <V vx="518.52673" vy="231.15506" c0x="518.49493" c0y="231.15414" c1x="518.55927" c1y="231.15413"/>
+        <V vx="518.43115" vy="231.15306" c1x="518.46301" c1y="231.15347"/>
+        <V vx="516.78271" vy="231.15306" c0x="516.71497" c0y="231.11801"/>
+        <V vx="516.57758" vy="231.05179" c0x="506.04837" c0y="230.0903" c1x="516.64661" c1y="231.08426"/>
+        <V vx="497.0816" vy="209.71201" c1x="497.08994" c1y="220.28473"/>
+        <V vx="497.0816" vy="209.70801"/>
+        <V vx="497.0816" vy="209.70601" c0x="497.0925" c0y="199.33621"/>
+        <V vx="515.97815" vy="188.43289" c0x="518.45599" c0y="188.13647" c1x="505.68164" c1y="189.66618"/>
+        <V vx="521.11688" vy="183.93085" c0x="524.89081" c0y="169.19281" c1x="520.49719" c1y="186.34821"/>
+        <V vx="554.60114" vy="157.91693" c1x="539.3877" c1y="157.92928"/>
+        <V vx="554.59814" vy="157.9164"/>
+        <V vx="554.60217" vy="157.9164" c0x="569.06726" c0y="157.9184"/>
+        <V vx="587.47565" vy="181.75473" c0x="588.25946" c0y="184.14946" c1x="582.97729" c1y="168.00674"/>
+        <V vx="592.96368" vy="185.91467" c0x="599.18158" c0y="186.18065" c1x="590.44623" c1y="185.80702"/>
+        <V vx="604.67047" vy="198.11394" c0x="604.67047" c0y="198.12634" c1x="604.65717" c1y="191.89159"/>
+        <V vx="604.67047" vy="198.15114" c0x="604.58972" c0y="199.86491" c1x="604.67047" c1y="198.13873"/>
+        <V vx="606.46167" vy="202.73781" c0x="607.68243" c0y="203.94331" c1x="605.24091" c1y="201.5323"/>
+        <V vx="611.07056" vy="204.47116" c0x="611.22699" c0y="204.46216" c1x="609.35791" c1y="204.57344"/>
+        <V vx="611.53979" vy="204.45357" c0x="618.48236" c0y="204.47026" c1x="611.38318" c1y="204.45737"/>
+        <V vx="624.79327" vy="217.73079" c0x="624.79346" c0y="224.68394" c1x="624.79346" c1y="210.78648"/>
+        <V vx="611.51398" vy="231.01215" c0x="611.39941" c0y="231.05554" c1x="618.46716" c1y="231.0116"/>
+        <V vx="611.17444" vy="231.15271" c1x="611.28619" c1y="231.10242"/>
+        <V vx="595.87256" vy="231.15271"/>
+        <V vx="595.87256" vy="230.95117"/>
+        <V vx="568.33472" vy="230.95117"/>
+        <V vx="568.33472" vy="251.8269"/>
+        <V vx="595.87256" vy="251.8269"/>
+        <V vx="595.87256" vy="237.19731"/>
+        <V vx="611.5119" vy="237.19731"/>
+        <V vx="611.5119" vy="237.05727" c0x="622.18481" c0y="237.0565"/>
+        <V vx="630.8363" vy="217.73132" c0x="630.8363" c0y="212.60556" c1x="630.83643" c1y="228.40419"/>
+        <V vx="625.17578" vy="204.06561" c0x="621.55145" c0y="200.44131" c1x="628.80017" c1y="207.68991"/>
+        <V vx="611.51031" vy="198.40536" c0x="611.24261" c0y="198.40981" c1x="616.63574" c1y="198.40526"/>
+        <V vx="610.70776" vy="198.43536" c0x="610.7124" c0y="198.33508" c1x="610.97504" c1y="198.41982"/>
+        <V vx="610.71918" vy="198.1346" c0x="610.71722" c0y="188.34155" c1x="610.71625" c1y="198.23494"/>
+        <V vx="593.22052" vy="179.8737" c0x="587.75531" c0y="163.17073" c1x="603.00073" c1y="180.29071"/>
+        <V vx="554.59857" vy="151.8718" c1x="572.17291" c1y="151.87308"/>
+        <P T="B" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="L" p0="9" p1="10"/>
+        <P T="L" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="L" p0="12" p1="13"/>
+        <P T="L" p0="13" p1="14"/>
+        <P T="B" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="17"/>
+        <P T="B" p0="17" p1="18"/>
+        <P T="B" p0="18" p1="19"/>
+        <P T="L" p0="19" p1="20"/>
+        <P T="L" p0="20" p1="21"/>
+        <P T="B" p0="21" p1="22"/>
+        <P T="B" p0="22" p1="23"/>
+        <P T="B" p0="23" p1="24"/>
+        <P T="L" p0="24" p1="25"/>
+        <P T="L" p0="25" p1="26"/>
+        <P T="B" p0="26" p1="27"/>
+        <P T="B" p0="27" p1="28"/>
+        <P T="B" p0="28" p1="29"/>
+        <P T="B" p0="29" p1="30"/>
+        <P T="B" p0="30" p1="31"/>
+        <P T="B" p0="31" p1="32"/>
+        <P T="B" p0="32" p1="33"/>
+        <P T="B" p0="33" p1="34"/>
+        <P T="B" p0="34" p1="35"/>
+        <P T="B" p0="35" p1="36"/>
+        <P T="L" p0="36" p1="37"/>
+        <P T="L" p0="37" p1="38"/>
+        <P T="L" p0="38" p1="39"/>
+        <P T="L" p0="39" p1="40"/>
+        <P T="L" p0="40" p1="41"/>
+        <P T="L" p0="41" p1="42"/>
+        <P T="L" p0="42" p1="43"/>
+        <P T="L" p0="43" p1="44"/>
+        <P T="B" p0="44" p1="45"/>
+        <P T="B" p0="45" p1="46"/>
+        <P T="B" p0="46" p1="47"/>
+        <P T="B" p0="47" p1="48"/>
+        <P T="B" p0="48" p1="49"/>
+        <P T="B" p0="49" p1="50"/>
+        <P T="B" p0="50" p1="51"/>
+        <P T="L" p0="51" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>-4.37114e-8 -1 1 -4.37114e-8 338.219 979.112</XForm>
+        <V vx="862.79071" vy="148.42101" c0x="844.23895" c0y="148.43347"/>
+        <V vx="823.44843" vy="178.97934" c0x="809.63531" c0y="180.63374" c1x="828.05054" c1y="161.00752"/>
+        <V vx="799.22559" vy="206.25778" c0x="799.23303" c0y="220.46896" c1x="799.23505" c1y="192.34595"/>
+        <V vx="824.2179" vy="233.62303" c1x="810.06818" c1y="232.3317"/>
+        <V vx="824.2179" vy="233.74654"/>
+        <V vx="826.62134" vy="233.74654" c0x="826.65363" c0y="233.74792"/>
+        <V vx="826.71796" vy="233.75053" c0x="826.75037" c0y="233.74924" c1x="826.68555" c1y="233.74924"/>
+        <V vx="826.81409" vy="233.74654" c1x="826.78156" c1y="233.74794"/>
+        <V vx="834.18933" vy="233.74654"/>
+        <V vx="834.18933" vy="248.37613"/>
+        <V vx="861.72717" vy="248.37613"/>
+        <V vx="861.72717" vy="227.5004"/>
+        <V vx="834.18933" vy="227.5004"/>
+        <V vx="834.18933" vy="227.70193"/>
+        <V vx="826.81561" vy="227.70193" c0x="826.78302" c0y="227.70233"/>
+        <V vx="826.7179" vy="227.70393" c0x="826.6861" c0y="227.70302" c1x="826.75043" c1y="227.703"/>
+        <V vx="826.62231" vy="227.70193" c1x="826.65417" c1y="227.70235"/>
+        <V vx="824.97382" vy="227.70193" c0x="824.90607" c0y="227.66689"/>
+        <V vx="824.76868" vy="227.60066" c0x="814.2395" c0y="226.63918" c1x="824.83771" c1y="227.63312"/>
+        <V vx="805.27271" vy="206.26086" c1x="805.28101" c1y="216.8336"/>
+        <V vx="805.27271" vy="206.25687"/>
+        <V vx="805.27271" vy="206.25487" c0x="805.28351" c0y="195.88507"/>
+        <V vx="824.16919" vy="184.98175" c0x="826.64703" c0y="184.68533" c1x="813.87274" c1y="186.21504"/>
+        <V vx="829.30792" vy="180.47971" c0x="833.08185" c0y="165.74167" c1x="828.68823" c1y="182.89706"/>
+        <V vx="862.79218" vy="154.46579" c1x="847.57874" c1y="154.47813"/>
+        <V vx="862.78918" vy="154.46526"/>
+        <V vx="862.79321" vy="154.46526" c0x="877.25836" c0y="154.46725"/>
+        <V vx="895.66669" vy="178.30359" c0x="896.4505" c0y="180.69832" c1x="891.16833" c1y="164.5556"/>
+        <V vx="901.15472" vy="182.46353" c0x="907.37262" c0y="182.72951" c1x="898.63727" c1y="182.35588"/>
+        <V vx="912.86151" vy="194.6628" c0x="912.86151" c0y="194.6752" c1x="912.84821" c1y="188.44044"/>
+        <V vx="912.86151" vy="194.7" c0x="912.78076" c0y="196.41377" c1x="912.86151" c1y="194.68759"/>
+        <V vx="914.65271" vy="199.28667" c0x="915.87347" c0y="200.49217" c1x="913.43195" c1y="198.08116"/>
+        <V vx="919.2616" vy="201.02002" c0x="919.41803" c0y="201.01102" c1x="917.54895" c1y="201.1223"/>
+        <V vx="919.73083" vy="201.00243" c0x="926.6734" c0y="201.01912" c1x="919.57422" c1y="201.00623"/>
+        <V vx="932.98431" vy="214.27965" c0x="932.9845" c0y="221.2328" c1x="932.9845" c1y="207.33534"/>
+        <V vx="919.70502" vy="227.561" c0x="919.59045" c0y="227.6044" c1x="926.6582" c1y="227.56046"/>
+        <V vx="919.36548" vy="227.70157" c1x="919.47723" c1y="227.65128"/>
+        <V vx="904.06366" vy="227.70157"/>
+        <V vx="904.06366" vy="227.50003"/>
+        <V vx="876.52582" vy="227.50003"/>
+        <V vx="876.52582" vy="248.37576"/>
+        <V vx="904.06366" vy="248.37576"/>
+        <V vx="904.06366" vy="233.74617"/>
+        <V vx="919.703" vy="233.74617"/>
+        <V vx="919.703" vy="233.60612" c0x="930.37592" c0y="233.60536"/>
+        <V vx="939.0274" vy="214.28018" c0x="939.0274" c0y="209.15442" c1x="939.02753" c1y="224.95305"/>
+        <V vx="933.36688" vy="200.61447" c0x="929.74255" c0y="196.99017" c1x="936.99127" c1y="204.23877"/>
+        <V vx="919.70142" vy="194.95422" c0x="919.43372" c0y="194.95866" c1x="924.82684" c1y="194.95412"/>
+        <V vx="918.89886" vy="194.98422" c0x="918.9035" c0y="194.88394" c1x="919.16614" c1y="194.96867"/>
+        <V vx="918.91028" vy="194.68346" c0x="918.90833" c0y="184.89041" c1x="918.90735" c1y="194.7838"/>
+        <V vx="901.41162" vy="176.42256" c0x="895.94641" c0y="159.71959" c1x="911.19183" c1y="176.83957"/>
+        <V vx="862.78967" vy="148.42065" c1x="880.36401" c1y="148.42194"/>
+        <P T="B" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="L" p0="9" p1="10"/>
+        <P T="L" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="L" p0="12" p1="13"/>
+        <P T="L" p0="13" p1="14"/>
+        <P T="B" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="17"/>
+        <P T="B" p0="17" p1="18"/>
+        <P T="B" p0="18" p1="19"/>
+        <P T="L" p0="19" p1="20"/>
+        <P T="L" p0="20" p1="21"/>
+        <P T="B" p0="21" p1="22"/>
+        <P T="B" p0="22" p1="23"/>
+        <P T="B" p0="23" p1="24"/>
+        <P T="L" p0="24" p1="25"/>
+        <P T="L" p0="25" p1="26"/>
+        <P T="B" p0="26" p1="27"/>
+        <P T="B" p0="27" p1="28"/>
+        <P T="B" p0="28" p1="29"/>
+        <P T="B" p0="29" p1="30"/>
+        <P T="B" p0="30" p1="31"/>
+        <P T="B" p0="31" p1="32"/>
+        <P T="B" p0="32" p1="33"/>
+        <P T="B" p0="33" p1="34"/>
+        <P T="B" p0="34" p1="35"/>
+        <P T="B" p0="35" p1="36"/>
+        <P T="L" p0="36" p1="37"/>
+        <P T="L" p0="37" p1="38"/>
+        <P T="L" p0="38" p1="39"/>
+        <P T="L" p0="39" p1="40"/>
+        <P T="L" p0="40" p1="41"/>
+        <P T="L" p0="41" p1="42"/>
+        <P T="L" p0="42" p1="43"/>
+        <P T="L" p0="43" p1="44"/>
+        <P T="B" p0="44" p1="45"/>
+        <P T="B" p0="45" p1="46"/>
+        <P T="B" p0="46" p1="47"/>
+        <P T="B" p0="47" p1="48"/>
+        <P T="B" p0="48" p1="49"/>
+        <P T="B" p0="49" p1="50"/>
+        <P T="B" p0="50" p1="51"/>
+        <P T="L" p0="51" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1 -433.45 244.866</XForm>
+        <V vx="745.27594" vy="-48.153648" c0x="726.72418" c0y="-48.14119" c1x="762.85028" c1y="-48.152359"/>
+        <V vx="705.93359" vy="-17.595308" c0x="692.12048" c0y="-15.940884" c1x="710.53577" c1y="-35.567139"/>
+        <V vx="681.71082" vy="9.6831293" c0x="681.7171" c0y="23.89204" c1x="681.72028" c1y="-4.2286901"/>
+        <V vx="706.70306" vy="37.048382" c1x="692.55121" c1y="35.755665"/>
+        <V vx="706.70306" vy="37.17189"/>
+        <V vx="709.10657" vy="37.17189" c0x="709.13879" c0y="37.173153"/>
+        <V vx="709.20319" vy="37.175507" c0x="709.23535" c0y="37.174355" c1x="709.1712" c1y="37.17437"/>
+        <V vx="709.2998" vy="37.17189" c1x="709.26782" c1y="37.173141"/>
+        <V vx="802.18976" vy="37.17189"/>
+        <V vx="802.18976" vy="37.031845" c0x="812.86261" c0y="37.031086"/>
+        <V vx="821.51416" vy="17.705894" c0x="821.51459" c0y="12.581858" c1x="821.51428" c1y="28.378761"/>
+        <V vx="815.85486" vy="4.0414186" c0x="812.23083" c0y="0.41680068" c1x="819.47888" c1y="7.6660357"/>
+        <V vx="802.18823" vy="-1.620056" c0x="801.92047" c0y="-1.6156253" c1x="807.31537" c1y="-1.6196947"/>
+        <V vx="801.38568" vy="-1.5900837" c0x="801.39026" c0y="-1.6902139" c1x="801.65289" c1y="-1.6056331"/>
+        <V vx="801.39703" vy="-1.8908405" c0x="801.39703" c0y="-11.680424" c1x="801.39404" c1y="-1.790634"/>
+        <V vx="783.89783" vy="-20.151741" c0x="778.43268" c0y="-36.85471" c1x="793.68195" c1y="-19.732903"/>
+        <P T="B" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="B" p0="9" p1="10"/>
+        <P T="B" p0="10" p1="11"/>
+        <P T="B" p0="11" p1="12"/>
+        <P T="B" p0="12" p1="13"/>
+        <P T="B" p0="13" p1="14"/>
+        <P T="B" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1 -433.45 244.866</XForm>
+        <V vx="745.27539" vy="-39.59758" c1x="731.16681" c1y="-39.585018"/>
+        <V vx="745.28107" vy="-39.59758" c0x="758.69562" c0y="-39.594234"/>
+        <V vx="775.7655" vy="-17.491955" c0x="776.87457" c0y="-14.102191" c1x="771.59387" c1y="-30.241529"/>
+        <V vx="783.53302" vy="-11.603425" c0x="788.48071" c0y="-11.391774" c1x="779.96973" c1y="-11.755746"/>
+        <V vx="792.83997" vy="-1.8908405" c1x="792.83972" c1y="-6.8430772"/>
+        <V vx="792.84198" vy="-1.9843749" c0x="792.73047" c0y="0.43532333"/>
+        <V vx="795.37152" vy="4.4925976" c0x="797.09344" c0y="6.19626" c1x="793.64966" c1y="2.7889345"/>
+        <V vx="801.87506" vy="6.9530635" c0x="801.9837" c0y="6.9468346" c1x="799.45667" c1y="7.0903478"/>
+        <V vx="802.20111" vy="6.9396276" c0x="807.83429" c0y="6.9479985" c1x="802.09235" c1y="6.9425602"/>
+        <V vx="812.95703" vy="17.704861" c0x="812.95715" c0y="23.343538" c1x="812.9566" c1y="12.070852"/>
+        <V vx="802.18921" vy="28.474747" c0x="802.07501" c0y="28.519167" c1x="807.82788" c1y="28.474293"/>
+        <V vx="801.84973" vy="28.615307" c1x="801.96185" c1y="28.566021"/>
+        <V vx="709.30084" vy="28.615307" c0x="709.26898" c0y="28.615814"/>
+        <V vx="709.20526" vy="28.617373" c0x="709.17279" c0y="28.616501" c1x="709.23718" c1y="28.616505"/>
+        <V vx="709.1076" vy="28.615307" c1x="709.14008" c1y="28.615808"/>
+        <V vx="707.65808" vy="28.615307" c0x="707.59912" c0y="28.585342"/>
+        <V vx="707.48029" vy="28.527456" c0x="698.18518" c0y="27.678669" c1x="707.53986" c1y="28.556047"/>
+        <V vx="690.2674" vy="9.6893301" c1x="690.27734" c1y="19.022646"/>
+        <V vx="690.2674" vy="9.6836462"/>
+        <V vx="690.2674" vy="9.679512" c0x="690.27869" c0y="0.52491319"/>
+        <V vx="706.95111" vy="-9.0997028" c0x="710.45782" c0y="-9.5198746" c1x="697.86102" c1y="-8.0109148"/>
+        <V vx="714.22253" vy="-15.47244" c0x="717.72235" c0y="-29.140192" c1x="713.34607" c1y="-12.051196"/>
+        <P T="L" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="B" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="B" p0="7" p1="8"/>
+        <P T="B" p0="8" p1="9"/>
+        <P T="B" p0="9" p1="10"/>
+        <P T="B" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="B" p0="12" p1="13"/>
+        <P T="B" p0="13" p1="14"/>
+        <P T="L" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="16"/>
+        <P T="B" p0="16" p1="17"/>
+        <P T="L" p0="17" p1="18"/>
+        <P T="L" p0="18" p1="19"/>
+        <P T="B" p0="19" p1="20"/>
+        <P T="B" p0="20" p1="21"/>
+        <P T="B" p0="21" p1="0"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Folie" H="25" LS="0" LnS="0" Ah="1" Av="1" Weld="1">
+        <XForm>1 0 0 1 -123.459 150.425</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="1" W="50.099998" H="19" Cr="0">
+        <XForm>1 0 0 1 98.5322 44.9982</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="1" W="0" H="0" Cr="0">
+        <XForm>1 0 0 1 106.287 46.0752</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="1" W="34.000011" H="18.50001" Cr="0">
+        <XForm>1 0 0 1 98.5322 81.8192</XForm>
+    </Shape>
+    <Shape Type="Path" CutIndex="0">
+        <XForm>1 0 0 1 -999.956 79.9641</XForm>
+        <V vx="745.27594" vy="-48.153648" c0x="726.72418" c0y="-48.14119" c1x="762.85028" c1y="-48.152359"/>
+        <V vx="705.93359" vy="-17.595308" c0x="692.12048" c0y="-15.940884" c1x="710.53577" c1y="-35.567139"/>
+        <V vx="681.71082" vy="9.6831293" c0x="681.7171" c0y="23.89204" c1x="681.72028" c1y="-4.2286901"/>
+        <V vx="706.70306" vy="37.048382" c1x="692.55121" c1y="35.755665"/>
+        <V vx="706.70306" vy="37.17189"/>
+        <V vx="709.10657" vy="37.17189" c0x="709.13879" c0y="37.173153"/>
+        <V vx="709.20319" vy="37.175507" c0x="709.23535" c0y="37.174355" c1x="709.1712" c1y="37.17437"/>
+        <V vx="709.2998" vy="37.17189" c1x="709.26782" c1y="37.173141"/>
+        <V vx="802.18976" vy="37.17189"/>
+        <V vx="802.18976" vy="37.031845" c0x="812.86261" c0y="37.031086"/>
+        <V vx="821.51416" vy="17.705894" c0x="821.51459" c0y="12.581858" c1x="821.51428" c1y="28.378761"/>
+        <V vx="815.85486" vy="4.0414186" c0x="812.23083" c0y="0.41680068" c1x="819.47888" c1y="7.6660357"/>
+        <V vx="802.18823" vy="-1.620056" c0x="801.92047" c0y="-1.6156253" c1x="807.31537" c1y="-1.6196947"/>
+        <V vx="801.38568" vy="-1.5900837" c0x="801.39026" c0y="-1.6902139" c1x="801.65289" c1y="-1.6056331"/>
+        <V vx="801.39703" vy="-1.8908405" c0x="801.39703" c0y="-11.680424" c1x="801.39404" c1y="-1.790634"/>
+        <V vx="783.89783" vy="-20.151741" c0x="778.43268" c0y="-36.85471" c1x="793.68195" c1y="-19.732903"/>
+        <P T="B" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="B" p0="9" p1="10"/>
+        <P T="B" p0="10" p1="11"/>
+        <P T="B" p0="11" p1="12"/>
+        <P T="B" p0="12" p1="13"/>
+        <P T="B" p0="13" p1="14"/>
+        <P T="B" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="0">
+        <XForm>1 0 0 1 -999.956 79.9641</XForm>
+        <V vx="745.27539" vy="-39.59758" c1x="731.16681" c1y="-39.585018"/>
+        <V vx="745.28107" vy="-39.59758" c0x="758.69562" c0y="-39.594234"/>
+        <V vx="775.7655" vy="-17.491955" c0x="776.87457" c0y="-14.102191" c1x="771.59387" c1y="-30.241529"/>
+        <V vx="783.53302" vy="-11.603425" c0x="788.48071" c0y="-11.391774" c1x="779.96973" c1y="-11.755746"/>
+        <V vx="792.83997" vy="-1.8908405" c1x="792.83972" c1y="-6.8430772"/>
+        <V vx="792.84198" vy="-1.9843749" c0x="792.73047" c0y="0.43532333"/>
+        <V vx="795.37152" vy="4.4925976" c0x="797.09344" c0y="6.19626" c1x="793.64966" c1y="2.7889345"/>
+        <V vx="801.87506" vy="6.9530635" c0x="801.9837" c0y="6.9468346" c1x="799.45667" c1y="7.0903478"/>
+        <V vx="802.20111" vy="6.9396276" c0x="807.83429" c0y="6.9479985" c1x="802.09235" c1y="6.9425602"/>
+        <V vx="812.95703" vy="17.704861" c0x="812.95715" c0y="23.343538" c1x="812.9566" c1y="12.070852"/>
+        <V vx="802.18921" vy="28.474747" c0x="802.07501" c0y="28.519167" c1x="807.82788" c1y="28.474293"/>
+        <V vx="801.84973" vy="28.615307" c1x="801.96185" c1y="28.566021"/>
+        <V vx="709.30084" vy="28.615307" c0x="709.26898" c0y="28.615814"/>
+        <V vx="709.20526" vy="28.617373" c0x="709.17279" c0y="28.616501" c1x="709.23718" c1y="28.616505"/>
+        <V vx="709.1076" vy="28.615307" c1x="709.14008" c1y="28.615808"/>
+        <V vx="707.65808" vy="28.615307" c0x="707.59912" c0y="28.585342"/>
+        <V vx="707.48029" vy="28.527456" c0x="698.18518" c0y="27.678669" c1x="707.53986" c1y="28.556047"/>
+        <V vx="690.2674" vy="9.6893301" c1x="690.27734" c1y="19.022646"/>
+        <V vx="690.2674" vy="9.6836462"/>
+        <V vx="690.2674" vy="9.679512" c0x="690.27869" c0y="0.52491319"/>
+        <V vx="706.95111" vy="-9.0997028" c0x="710.45782" c0y="-9.5198746" c1x="697.86102" c1y="-8.0109148"/>
+        <V vx="714.22253" vy="-15.47244" c0x="717.72235" c0y="-29.140192" c1x="713.34607" c1y="-12.051196"/>
+        <P T="L" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="B" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="B" p0="7" p1="8"/>
+        <P T="B" p0="8" p1="9"/>
+        <P T="B" p0="9" p1="10"/>
+        <P T="B" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="B" p0="12" p1="13"/>
+        <P T="B" p0="13" p1="14"/>
+        <P T="L" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="16"/>
+        <P T="B" p0="16" p1="17"/>
+        <P T="L" p0="17" p1="18"/>
+        <P T="L" p0="18" p1="19"/>
+        <P T="B" p0="19" p1="20"/>
+        <P T="B" p0="20" p1="21"/>
+        <P T="B" p0="21" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="0">
+        <XForm>1 0 0 1 -975.802 81.7536</XForm>
+        <V vx="577.29504" vy="-51.913734" c0x="558.74335" c0y="-51.901264"/>
+        <V vx="537.95276" vy="-21.355385" c0x="524.13965" c0y="-19.700977" c1x="542.55493" c1y="-39.327206"/>
+        <V vx="513.72992" vy="5.9230556" c0x="513.73737" c0y="20.13422" c1x="513.73938" c1y="-7.9887795"/>
+        <V vx="538.72217" vy="33.288307" c1x="524.57245" c1y="31.996944"/>
+        <V vx="538.72217" vy="33.411816"/>
+        <V vx="541.12561" vy="33.411816" c0x="541.1579" c0y="33.413078"/>
+        <V vx="541.22223" vy="33.415417" c0x="541.25452" c0y="33.414268" c1x="541.18988" c1y="33.414268"/>
+        <V vx="541.31891" vy="33.411816" c1x="541.2865" c1y="33.413078"/>
+        <V vx="634.2088" vy="33.411816"/>
+        <V vx="634.2088" vy="33.271774" c0x="644.88171" c0y="33.271019"/>
+        <V vx="653.5332" vy="13.945822" c0x="653.5332" c0y="8.8200722" c1x="653.53333" c1y="24.618687"/>
+        <V vx="647.87274" vy="0.28014183" c0x="644.24835" c0y="-3.3441525" c1x="651.49707" c1y="3.9044352"/>
+        <V vx="634.20728" vy="-5.3801289" c0x="633.93958" c0y="-5.3756895" c1x="639.3327" c1y="-5.3802166"/>
+        <V vx="633.40472" vy="-5.3501287" c0x="633.40936" c0y="-5.4504242" c1x="633.672" c1y="-5.3656874"/>
+        <V vx="633.41614" vy="-5.6508884" c0x="633.41418" c0y="-15.444094" c1x="633.41321" c1y="-5.5505762"/>
+        <V vx="615.91699" vy="-23.911789" c0x="610.45178" c0y="-40.614761" c1x="625.69745" c1y="-23.495029"/>
+        <V vx="577.29504" vy="-51.913696" c1x="594.86938" c1y="-51.912415"/>
+        <P T="B" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="B" p0="9" p1="10"/>
+        <P T="B" p0="10" p1="11"/>
+        <P T="B" p0="11" p1="12"/>
+        <P T="B" p0="12" p1="13"/>
+        <P T="B" p0="13" p1="14"/>
+        <P T="B" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="0">
+        <XForm>1 0 0 1 -975.802 81.7536</XForm>
+        <V vx="577.29504" vy="-43.357666"/>
+        <V vx="577.30103" vy="-43.357666" c0x="590.71558" c0y="-43.354668"/>
+        <V vx="607.78546" vy="-21.252035" c0x="608.89447" c0y="-17.862261" c1x="603.61389" c1y="-34.001617"/>
+        <V vx="615.55298" vy="-15.363505" c0x="620.50067" c0y="-15.151855" c1x="611.98962" c1y="-15.515811"/>
+        <V vx="624.85986" vy="-5.6509256" c1x="624.85968" c1y="-10.603155"/>
+        <V vx="624.86188" vy="-5.7444258" c0x="624.75031" c0y="-3.324733"/>
+        <V vx="627.39136" vy="0.73253822" c0x="629.11328" c0y="2.4362006" c1x="625.66949" c1y="-0.9711256"/>
+        <V vx="633.8949" vy="3.1930141" c0x="634.00354" c0y="3.1870141" c1x="631.4765" c1y="3.3302922"/>
+        <V vx="634.22095" vy="3.1796141" c0x="639.85413" c0y="3.187614" c1x="634.11218" c1y="3.1825142"/>
+        <V vx="644.97687" vy="13.944852" c0x="644.97699" c0y="19.58353" c1x="644.97644" c1y="8.3108444"/>
+        <V vx="634.20905" vy="24.714735" c0x="634.09491" c0y="24.759151" c1x="639.84772" c1y="24.714283"/>
+        <V vx="633.86951" vy="24.855295" c1x="633.98169" c1y="24.806017"/>
+        <V vx="541.32062" vy="24.855295" c0x="541.28876" c0y="24.855816"/>
+        <V vx="541.22504" vy="24.857395" c0x="541.19238" c0y="24.856506" c1x="541.25696" c1y="24.856516"/>
+        <V vx="541.12732" vy="24.855295" c1x="541.15991" c1y="24.855808"/>
+        <V vx="539.6778" vy="24.855295" c0x="539.6189" c0y="24.825336"/>
+        <V vx="539.5" vy="24.767445" c0x="530.20502" c0y="23.918661" c1x="539.55957" c1y="24.796032"/>
+        <V vx="522.28723" vy="5.9293261" c1x="522.29718" c1y="15.262637"/>
+        <V vx="522.28723" vy="5.923326"/>
+        <V vx="522.28723" vy="5.9193258" c0x="522.29865" c0y="-3.2352743"/>
+        <V vx="538.97095" vy="-12.859895" c0x="542.4776" c0y="-13.280079" c1x="529.88086" c1y="-11.771104"/>
+        <V vx="546.24231" vy="-19.232635" c0x="549.74219" c0y="-32.900387" c1x="545.36584" c1y="-15.811399"/>
+        <V vx="577.29523" vy="-43.357773" c1x="563.18665" c1y="-43.345215"/>
+        <P T="L" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="B" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="B" p0="7" p1="8"/>
+        <P T="B" p0="8" p1="9"/>
+        <P T="B" p0="9" p1="10"/>
+        <P T="B" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="B" p0="12" p1="13"/>
+        <P T="B" p0="13" p1="14"/>
+        <P T="L" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="16"/>
+        <P T="B" p0="16" p1="17"/>
+        <P T="L" p0="17" p1="18"/>
+        <P T="L" p0="18" p1="19"/>
+        <P T="B" p0="19" p1="20"/>
+        <P T="B" p0="20" p1="21"/>
+        <P T="B" p0="21" p1="22"/>
+        <P T="L" p0="22" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="0">
+        <XForm>1 0 0 1 -976.832 74.6858</XForm>
+        <V vx="571.20563" vy="46.719116" c0x="552.65393" c0y="46.731586"/>
+        <V vx="531.86334" vy="77.277458" c0x="518.05029" c0y="78.9319" c1x="536.46552" c1y="59.305634"/>
+        <V vx="507.64056" vy="104.55589" c0x="507.64801" c0y="118.76707" c1x="507.65005" c1y="90.644089"/>
+        <V vx="532.63281" vy="131.92116" c1x="518.48309" c1y="130.62981"/>
+        <V vx="532.63281" vy="132.04466"/>
+        <V vx="535.03625" vy="132.04466" c0x="535.06854" c0y="132.04605"/>
+        <V vx="535.13287" vy="132.04866" c0x="535.16516" c0y="132.04738" c1x="535.10046" c1y="132.04738"/>
+        <V vx="535.22949" vy="132.04466" c1x="535.19714" c1y="132.04607"/>
+        <V vx="628.11938" vy="132.04466"/>
+        <V vx="628.11938" vy="131.90462" c0x="638.79224" c0y="131.90385"/>
+        <V vx="647.44379" vy="112.57867" c0x="647.44464" c0y="107.45619" c1x="647.44385" c1y="123.25153"/>
+        <V vx="641.78558" vy="98.915298" c0x="638.1618" c0y="95.29039" c1x="645.4093" c1y="102.54021"/>
+        <V vx="628.11786" vy="93.252716" c0x="627.8501" c0y="93.257156" c1x="633.24652" c1y="93.253494"/>
+        <V vx="627.31525" vy="93.282715" c0x="627.3197" c0y="93.182587" c1x="627.58258" c1y="93.267151"/>
+        <V vx="627.32623" vy="92.981956" c0x="627.32428" c0y="83.188889" c1x="627.32336" c1y="93.082184"/>
+        <V vx="609.82751" vy="74.721054" c0x="604.3623" c0y="58.018108" c1x="619.60779" c1y="75.138023"/>
+        <V vx="571.20563" vy="46.719147" c1x="588.77991" c1y="46.720463"/>
+        <P T="B" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="B" p0="9" p1="10"/>
+        <P T="B" p0="10" p1="11"/>
+        <P T="B" p0="11" p1="12"/>
+        <P T="B" p0="12" p1="13"/>
+        <P T="B" p0="13" p1="14"/>
+        <P T="B" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="0">
+        <XForm>-1 0 0 1 512.483 79.964</XForm>
+        <V vx="752.32153" vy="46.589157" c0x="733.76984" c0y="46.601627"/>
+        <V vx="712.97925" vy="77.147499" c0x="699.16614" c0y="78.801941" c1x="717.58142" c1y="59.175674"/>
+        <V vx="688.75647" vy="104.42593" c0x="688.76392" c0y="118.63712" c1x="688.76593" c1y="90.51413"/>
+        <V vx="713.74872" vy="131.7912" c1x="699.599" c1y="130.49985"/>
+        <V vx="713.74872" vy="131.9147"/>
+        <V vx="716.15216" vy="131.9147" c0x="716.18445" c0y="131.91609"/>
+        <V vx="716.24878" vy="131.9187" c0x="716.28107" c0y="131.91742" c1x="716.21637" c1y="131.91742"/>
+        <V vx="716.3454" vy="131.9147" c1x="716.31305" c1y="131.91611"/>
+        <V vx="809.23529" vy="131.9147"/>
+        <V vx="809.23529" vy="131.77466" c0x="819.90814" c0y="131.7739"/>
+        <V vx="828.55969" vy="112.44871" c0x="828.56055" c0y="107.32623" c1x="828.55975" c1y="123.12157"/>
+        <V vx="822.90149" vy="98.785339" c0x="819.27771" c0y="95.160431" c1x="826.52521" c1y="102.41025"/>
+        <V vx="809.23376" vy="93.122757" c0x="808.966" c0y="93.127197" c1x="814.36243" c1y="93.123535"/>
+        <V vx="808.43115" vy="93.152756" c0x="808.43561" c0y="93.052628" c1x="808.69849" c1y="93.137192"/>
+        <V vx="808.44214" vy="92.851997" c0x="808.44019" c0y="83.058929" c1x="808.43927" c1y="92.952225"/>
+        <V vx="790.94342" vy="74.591095" c0x="785.47821" c0y="57.888145" c1x="800.72369" c1y="75.008064"/>
+        <V vx="752.32153" vy="46.589184" c1x="769.89581" c1y="46.5905"/>
+        <P T="B" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="B" p0="9" p1="10"/>
+        <P T="B" p0="10" p1="11"/>
+        <P T="B" p0="11" p1="12"/>
+        <P T="B" p0="12" p1="13"/>
+        <P T="B" p0="13" p1="14"/>
+        <P T="B" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="0">
+        <XForm>1 0 0 1 -956.367 67.9016</XForm>
+        <V vx="708.02655" vy="148.30344" c0x="689.47479" c0y="148.3159"/>
+        <V vx="668.68427" vy="178.86177" c0x="654.87115" c0y="180.51617" c1x="673.28638" c1y="160.88995"/>
+        <V vx="644.46143" vy="206.14021" c0x="644.46887" c0y="220.35139" c1x="644.47089" c1y="192.22838"/>
+        <V vx="669.45374" vy="233.50546" c1x="655.30402" c1y="232.21413"/>
+        <V vx="669.45374" vy="233.62897"/>
+        <V vx="671.85718" vy="233.62897" c0x="671.88947" c0y="233.63036"/>
+        <V vx="671.9538" vy="233.63297" c0x="671.98621" c0y="233.63167" c1x="671.92139" c1y="233.63168"/>
+        <V vx="672.04993" vy="233.62897" c1x="672.0174" c1y="233.63037"/>
+        <V vx="679.42517" vy="233.62897"/>
+        <V vx="679.42517" vy="248.25856"/>
+        <V vx="706.96301" vy="248.25856"/>
+        <V vx="706.96301" vy="227.38283"/>
+        <V vx="679.42517" vy="227.38283"/>
+        <V vx="679.42517" vy="227.58437"/>
+        <V vx="672.05145" vy="227.58437" c0x="672.01886" c0y="227.58476"/>
+        <V vx="671.95374" vy="227.58636" c0x="671.92194" c0y="227.58545" c1x="671.98627" c1y="227.58543"/>
+        <V vx="671.85815" vy="227.58437" c1x="671.89001" c1y="227.58478"/>
+        <V vx="670.20966" vy="227.58437" c0x="670.14191" c0y="227.54932"/>
+        <V vx="670.00452" vy="227.48309" c0x="659.47534" c0y="226.52161" c1x="670.07355" c1y="227.51556"/>
+        <V vx="650.50854" vy="206.14331" c1x="650.51685" c1y="216.71603"/>
+        <V vx="650.50854" vy="206.13931"/>
+        <V vx="650.50854" vy="206.13731" c0x="650.51923" c0y="195.76752"/>
+        <V vx="669.40509" vy="184.8642" c0x="671.88293" c0y="184.56778" c1x="659.10858" c1y="186.09749"/>
+        <V vx="674.54382" vy="180.36215" c0x="678.31775" c0y="165.62411" c1x="673.92413" c1y="182.77951"/>
+        <V vx="708.02808" vy="154.34824" c1x="692.81464" c1y="154.36058"/>
+        <V vx="708.02606" vy="154.34772"/>
+        <V vx="708.03009" vy="154.34772" c0x="722.49518" c0y="154.34972"/>
+        <V vx="740.90356" vy="178.18607" c0x="741.68738" c0y="180.5808" c1x="736.40521" c1y="164.43805"/>
+        <V vx="746.3916" vy="182.34601" c0x="752.6095" c0y="182.612" c1x="743.87415" c1y="182.23836"/>
+        <V vx="758.09839" vy="194.54527" c0x="758.09778" c0y="194.55768" c1x="758.08508" c1y="188.32292"/>
+        <V vx="758.09839" vy="194.58247" c0x="758.01764" c0y="196.29625" c1x="758.09741" c1y="194.57007"/>
+        <V vx="759.88959" vy="199.16914" c0x="761.11035" c0y="200.37465" c1x="758.66882" c1y="197.96364"/>
+        <V vx="764.49847" vy="200.9025" c0x="764.65491" c0y="200.89349" c1x="762.78583" c1y="201.00478"/>
+        <V vx="764.96771" vy="200.8849" c0x="771.91028" c0y="200.9016" c1x="764.8111" c1y="200.8887"/>
+        <V vx="778.22119" vy="214.16214" c0x="778.22137" c0y="221.1153" c1x="778.22137" c1y="207.21782"/>
+        <V vx="764.94189" vy="227.4435" c0x="764.82733" c0y="227.48689" c1x="771.89508" c1y="227.44293"/>
+        <V vx="764.60236" vy="227.58406" c1x="764.71411" c1y="227.53377"/>
+        <V vx="749.30048" vy="227.58406"/>
+        <V vx="749.30048" vy="227.38252"/>
+        <V vx="721.76263" vy="227.38252"/>
+        <V vx="721.76263" vy="248.25826"/>
+        <V vx="749.30048" vy="248.25826"/>
+        <V vx="749.30048" vy="233.62866"/>
+        <V vx="764.93982" vy="233.62866"/>
+        <V vx="764.93982" vy="233.48862" c0x="775.61273" c0y="233.48785"/>
+        <V vx="784.26422" vy="214.16266" c0x="784.26422" c0y="209.0369" c1x="784.26434" c1y="224.83553"/>
+        <V vx="778.6037" vy="200.49695" c0x="774.97937" c0y="196.87265" c1x="782.22809" c1y="204.12125"/>
+        <V vx="764.93823" vy="194.8367" c0x="764.67053" c0y="194.84114" c1x="770.06366" c1y="194.83659"/>
+        <V vx="764.13568" vy="194.8667" c0x="764.14032" c0y="194.76642" c1x="764.40295" c1y="194.85115"/>
+        <V vx="764.14709" vy="194.56593" c0x="764.14514" c0y="184.77289" c1x="764.14417" c1y="194.66628"/>
+        <V vx="746.64844" vy="176.30504" c0x="741.18323" c0y="159.60207" c1x="756.42865" c1y="176.72205"/>
+        <V vx="708.02649" vy="148.30313" c1x="725.60083" c1y="148.30441"/>
+        <P T="B" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="L" p0="9" p1="10"/>
+        <P T="L" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="L" p0="12" p1="13"/>
+        <P T="L" p0="13" p1="14"/>
+        <P T="B" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="17"/>
+        <P T="B" p0="17" p1="18"/>
+        <P T="B" p0="18" p1="19"/>
+        <P T="L" p0="19" p1="20"/>
+        <P T="L" p0="20" p1="21"/>
+        <P T="B" p0="21" p1="22"/>
+        <P T="B" p0="22" p1="23"/>
+        <P T="B" p0="23" p1="24"/>
+        <P T="L" p0="24" p1="25"/>
+        <P T="L" p0="25" p1="26"/>
+        <P T="B" p0="26" p1="27"/>
+        <P T="B" p0="27" p1="28"/>
+        <P T="B" p0="28" p1="29"/>
+        <P T="B" p0="29" p1="30"/>
+        <P T="B" p0="30" p1="31"/>
+        <P T="B" p0="31" p1="32"/>
+        <P T="B" p0="32" p1="33"/>
+        <P T="B" p0="33" p1="34"/>
+        <P T="B" p0="34" p1="35"/>
+        <P T="B" p0="35" p1="36"/>
+        <P T="L" p0="36" p1="37"/>
+        <P T="L" p0="37" p1="38"/>
+        <P T="L" p0="38" p1="39"/>
+        <P T="L" p0="39" p1="40"/>
+        <P T="L" p0="40" p1="41"/>
+        <P T="L" p0="41" p1="42"/>
+        <P T="L" p0="42" p1="43"/>
+        <P T="L" p0="43" p1="44"/>
+        <P T="B" p0="44" p1="45"/>
+        <P T="B" p0="45" p1="46"/>
+        <P T="B" p0="46" p1="47"/>
+        <P T="B" p0="47" p1="48"/>
+        <P T="B" p0="48" p1="49"/>
+        <P T="B" p0="49" p1="50"/>
+        <P T="B" p0="50" p1="51"/>
+        <P T="L" p0="51" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="0">
+        <XForm>1 0 0 1 -963.064 60.9041</XForm>
+        <V vx="554.59955" vy="151.87212" c0x="536.04779" c0y="151.88458"/>
+        <V vx="515.25726" vy="182.43045" c0x="501.44415" c0y="184.08487" c1x="519.85938" c1y="164.45863"/>
+        <V vx="491.03445" vy="209.70889" c0x="491.04187" c0y="223.92009" c1x="491.04388" c1y="195.79707"/>
+        <V vx="516.02673" vy="237.07416" c1x="501.87701" c1y="235.78282"/>
+        <V vx="516.02673" vy="237.19766"/>
+        <V vx="518.43024" vy="237.19766" c0x="518.46252" c0y="237.19905"/>
+        <V vx="518.52686" vy="237.20166" c0x="518.55927" c0y="237.20036" c1x="518.49445" c1y="237.20038"/>
+        <V vx="518.62299" vy="237.19766" c1x="518.59045" c1y="237.19907"/>
+        <V vx="525.99823" vy="237.19766"/>
+        <V vx="525.99823" vy="251.82726"/>
+        <V vx="553.53601" vy="251.82726"/>
+        <V vx="553.53601" vy="230.95152"/>
+        <V vx="525.99817" vy="230.95152"/>
+        <V vx="525.99817" vy="231.15306"/>
+        <V vx="518.62445" vy="231.15306" c0x="518.59186" c0y="231.15346"/>
+        <V vx="518.52673" vy="231.15506" c0x="518.49493" c0y="231.15414" c1x="518.55927" c1y="231.15413"/>
+        <V vx="518.43115" vy="231.15306" c1x="518.46301" c1y="231.15347"/>
+        <V vx="516.78271" vy="231.15306" c0x="516.71497" c0y="231.11801"/>
+        <V vx="516.57758" vy="231.05179" c0x="506.04837" c0y="230.0903" c1x="516.64661" c1y="231.08426"/>
+        <V vx="497.0816" vy="209.71201" c1x="497.08994" c1y="220.28473"/>
+        <V vx="497.0816" vy="209.70801"/>
+        <V vx="497.0816" vy="209.70601" c0x="497.0925" c0y="199.33621"/>
+        <V vx="515.97815" vy="188.43289" c0x="518.45599" c0y="188.13647" c1x="505.68164" c1y="189.66618"/>
+        <V vx="521.11688" vy="183.93085" c0x="524.89081" c0y="169.19281" c1x="520.49719" c1y="186.34821"/>
+        <V vx="554.60114" vy="157.91693" c1x="539.3877" c1y="157.92928"/>
+        <V vx="554.59814" vy="157.9164"/>
+        <V vx="554.60217" vy="157.9164" c0x="569.06726" c0y="157.9184"/>
+        <V vx="587.47565" vy="181.75473" c0x="588.25946" c0y="184.14946" c1x="582.97729" c1y="168.00674"/>
+        <V vx="592.96368" vy="185.91467" c0x="599.18158" c0y="186.18065" c1x="590.44623" c1y="185.80702"/>
+        <V vx="604.67047" vy="198.11394" c0x="604.67047" c0y="198.12634" c1x="604.65717" c1y="191.89159"/>
+        <V vx="604.67047" vy="198.15114" c0x="604.58972" c0y="199.86491" c1x="604.67047" c1y="198.13873"/>
+        <V vx="606.46167" vy="202.73781" c0x="607.68243" c0y="203.94331" c1x="605.24091" c1y="201.5323"/>
+        <V vx="611.07056" vy="204.47116" c0x="611.22699" c0y="204.46216" c1x="609.35791" c1y="204.57344"/>
+        <V vx="611.53979" vy="204.45357" c0x="618.48236" c0y="204.47026" c1x="611.38318" c1y="204.45737"/>
+        <V vx="624.79327" vy="217.73079" c0x="624.79346" c0y="224.68394" c1x="624.79346" c1y="210.78648"/>
+        <V vx="611.51398" vy="231.01215" c0x="611.39941" c0y="231.05554" c1x="618.46716" c1y="231.0116"/>
+        <V vx="611.17444" vy="231.15271" c1x="611.28619" c1y="231.10242"/>
+        <V vx="595.87256" vy="231.15271"/>
+        <V vx="595.87256" vy="230.95117"/>
+        <V vx="568.33472" vy="230.95117"/>
+        <V vx="568.33472" vy="251.8269"/>
+        <V vx="595.87256" vy="251.8269"/>
+        <V vx="595.87256" vy="237.19731"/>
+        <V vx="611.5119" vy="237.19731"/>
+        <V vx="611.5119" vy="237.05727" c0x="622.18481" c0y="237.0565"/>
+        <V vx="630.8363" vy="217.73132" c0x="630.8363" c0y="212.60556" c1x="630.83643" c1y="228.40419"/>
+        <V vx="625.17578" vy="204.06561" c0x="621.55145" c0y="200.44131" c1x="628.80017" c1y="207.68991"/>
+        <V vx="611.51031" vy="198.40536" c0x="611.24261" c0y="198.40981" c1x="616.63574" c1y="198.40526"/>
+        <V vx="610.70776" vy="198.43536" c0x="610.7124" c0y="198.33508" c1x="610.97504" c1y="198.41982"/>
+        <V vx="610.71918" vy="198.1346" c0x="610.71722" c0y="188.34155" c1x="610.71625" c1y="198.23494"/>
+        <V vx="593.22052" vy="179.8737" c0x="587.75531" c0y="163.17073" c1x="603.00073" c1y="180.29071"/>
+        <V vx="554.59857" vy="151.8718" c1x="572.17291" c1y="151.87308"/>
+        <P T="B" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="L" p0="9" p1="10"/>
+        <P T="L" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="L" p0="12" p1="13"/>
+        <P T="L" p0="13" p1="14"/>
+        <P T="B" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="17"/>
+        <P T="B" p0="17" p1="18"/>
+        <P T="B" p0="18" p1="19"/>
+        <P T="L" p0="19" p1="20"/>
+        <P T="L" p0="20" p1="21"/>
+        <P T="B" p0="21" p1="22"/>
+        <P T="B" p0="22" p1="23"/>
+        <P T="B" p0="23" p1="24"/>
+        <P T="L" p0="24" p1="25"/>
+        <P T="L" p0="25" p1="26"/>
+        <P T="B" p0="26" p1="27"/>
+        <P T="B" p0="27" p1="28"/>
+        <P T="B" p0="28" p1="29"/>
+        <P T="B" p0="29" p1="30"/>
+        <P T="B" p0="30" p1="31"/>
+        <P T="B" p0="31" p1="32"/>
+        <P T="B" p0="32" p1="33"/>
+        <P T="B" p0="33" p1="34"/>
+        <P T="B" p0="34" p1="35"/>
+        <P T="B" p0="35" p1="36"/>
+        <P T="L" p0="36" p1="37"/>
+        <P T="L" p0="37" p1="38"/>
+        <P T="L" p0="38" p1="39"/>
+        <P T="L" p0="39" p1="40"/>
+        <P T="L" p0="40" p1="41"/>
+        <P T="L" p0="41" p1="42"/>
+        <P T="L" p0="42" p1="43"/>
+        <P T="L" p0="43" p1="44"/>
+        <P T="B" p0="44" p1="45"/>
+        <P T="B" p0="45" p1="46"/>
+        <P T="B" p0="46" p1="47"/>
+        <P T="B" p0="47" p1="48"/>
+        <P T="B" p0="48" p1="49"/>
+        <P T="B" p0="49" p1="50"/>
+        <P T="B" p0="50" p1="51"/>
+        <P T="L" p0="51" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="0">
+        <XForm>1 0 0 1 -958.997 67.6763</XForm>
+        <V vx="862.79071" vy="148.42101" c0x="844.23895" c0y="148.43347"/>
+        <V vx="823.44843" vy="178.97934" c0x="809.63531" c0y="180.63374" c1x="828.05054" c1y="161.00752"/>
+        <V vx="799.22559" vy="206.25778" c0x="799.23303" c0y="220.46896" c1x="799.23505" c1y="192.34595"/>
+        <V vx="824.2179" vy="233.62303" c1x="810.06818" c1y="232.3317"/>
+        <V vx="824.2179" vy="233.74654"/>
+        <V vx="826.62134" vy="233.74654" c0x="826.65363" c0y="233.74792"/>
+        <V vx="826.71796" vy="233.75053" c0x="826.75037" c0y="233.74924" c1x="826.68555" c1y="233.74924"/>
+        <V vx="826.81409" vy="233.74654" c1x="826.78156" c1y="233.74794"/>
+        <V vx="834.18933" vy="233.74654"/>
+        <V vx="834.18933" vy="248.37613"/>
+        <V vx="861.72717" vy="248.37613"/>
+        <V vx="861.72717" vy="227.5004"/>
+        <V vx="834.18933" vy="227.5004"/>
+        <V vx="834.18933" vy="227.70193"/>
+        <V vx="826.81561" vy="227.70193" c0x="826.78302" c0y="227.70233"/>
+        <V vx="826.7179" vy="227.70393" c0x="826.6861" c0y="227.70302" c1x="826.75043" c1y="227.703"/>
+        <V vx="826.62231" vy="227.70193" c1x="826.65417" c1y="227.70235"/>
+        <V vx="824.97382" vy="227.70193" c0x="824.90607" c0y="227.66689"/>
+        <V vx="824.76868" vy="227.60066" c0x="814.2395" c0y="226.63918" c1x="824.83771" c1y="227.63312"/>
+        <V vx="805.27271" vy="206.26086" c1x="805.28101" c1y="216.8336"/>
+        <V vx="805.27271" vy="206.25687"/>
+        <V vx="805.27271" vy="206.25487" c0x="805.28351" c0y="195.88507"/>
+        <V vx="824.16919" vy="184.98175" c0x="826.64703" c0y="184.68533" c1x="813.87274" c1y="186.21504"/>
+        <V vx="829.30792" vy="180.47971" c0x="833.08185" c0y="165.74167" c1x="828.68823" c1y="182.89706"/>
+        <V vx="862.79218" vy="154.46579" c1x="847.57874" c1y="154.47813"/>
+        <V vx="862.78918" vy="154.46526"/>
+        <V vx="862.79321" vy="154.46526" c0x="877.25836" c0y="154.46725"/>
+        <V vx="895.66669" vy="178.30359" c0x="896.4505" c0y="180.69832" c1x="891.16833" c1y="164.5556"/>
+        <V vx="901.15472" vy="182.46353" c0x="907.37262" c0y="182.72951" c1x="898.63727" c1y="182.35588"/>
+        <V vx="912.86151" vy="194.6628" c0x="912.86151" c0y="194.6752" c1x="912.84821" c1y="188.44044"/>
+        <V vx="912.86151" vy="194.7" c0x="912.78076" c0y="196.41377" c1x="912.86151" c1y="194.68759"/>
+        <V vx="914.65271" vy="199.28667" c0x="915.87347" c0y="200.49217" c1x="913.43195" c1y="198.08116"/>
+        <V vx="919.2616" vy="201.02002" c0x="919.41803" c0y="201.01102" c1x="917.54895" c1y="201.1223"/>
+        <V vx="919.73083" vy="201.00243" c0x="926.6734" c0y="201.01912" c1x="919.57422" c1y="201.00623"/>
+        <V vx="932.98431" vy="214.27965" c0x="932.9845" c0y="221.2328" c1x="932.9845" c1y="207.33534"/>
+        <V vx="919.70502" vy="227.561" c0x="919.59045" c0y="227.6044" c1x="926.6582" c1y="227.56046"/>
+        <V vx="919.36548" vy="227.70157" c1x="919.47723" c1y="227.65128"/>
+        <V vx="904.06366" vy="227.70157"/>
+        <V vx="904.06366" vy="227.50003"/>
+        <V vx="876.52582" vy="227.50003"/>
+        <V vx="876.52582" vy="248.37576"/>
+        <V vx="904.06366" vy="248.37576"/>
+        <V vx="904.06366" vy="233.74617"/>
+        <V vx="919.703" vy="233.74617"/>
+        <V vx="919.703" vy="233.60612" c0x="930.37592" c0y="233.60536"/>
+        <V vx="939.0274" vy="214.28018" c0x="939.0274" c0y="209.15442" c1x="939.02753" c1y="224.95305"/>
+        <V vx="933.36688" vy="200.61447" c0x="929.74255" c0y="196.99017" c1x="936.99127" c1y="204.23877"/>
+        <V vx="919.70142" vy="194.95422" c0x="919.43372" c0y="194.95866" c1x="924.82684" c1y="194.95412"/>
+        <V vx="918.89886" vy="194.98422" c0x="918.9035" c0y="194.88394" c1x="919.16614" c1y="194.96867"/>
+        <V vx="918.91028" vy="194.68346" c0x="918.90833" c0y="184.89041" c1x="918.90735" c1y="194.7838"/>
+        <V vx="901.41162" vy="176.42256" c0x="895.94641" c0y="159.71959" c1x="911.19183" c1y="176.83957"/>
+        <V vx="862.78967" vy="148.42065" c1x="880.36401" c1y="148.42194"/>
+        <P T="B" p0="0" p1="1"/>
+        <P T="B" p0="1" p1="2"/>
+        <P T="B" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="B" p0="5" p1="6"/>
+        <P T="B" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="L" p0="9" p1="10"/>
+        <P T="L" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="L" p0="12" p1="13"/>
+        <P T="L" p0="13" p1="14"/>
+        <P T="B" p0="14" p1="15"/>
+        <P T="B" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="17"/>
+        <P T="B" p0="17" p1="18"/>
+        <P T="B" p0="18" p1="19"/>
+        <P T="L" p0="19" p1="20"/>
+        <P T="L" p0="20" p1="21"/>
+        <P T="B" p0="21" p1="22"/>
+        <P T="B" p0="22" p1="23"/>
+        <P T="B" p0="23" p1="24"/>
+        <P T="L" p0="24" p1="25"/>
+        <P T="L" p0="25" p1="26"/>
+        <P T="B" p0="26" p1="27"/>
+        <P T="B" p0="27" p1="28"/>
+        <P T="B" p0="28" p1="29"/>
+        <P T="B" p0="29" p1="30"/>
+        <P T="B" p0="30" p1="31"/>
+        <P T="B" p0="31" p1="32"/>
+        <P T="B" p0="32" p1="33"/>
+        <P T="B" p0="33" p1="34"/>
+        <P T="B" p0="34" p1="35"/>
+        <P T="B" p0="35" p1="36"/>
+        <P T="L" p0="36" p1="37"/>
+        <P T="L" p0="37" p1="38"/>
+        <P T="L" p0="38" p1="39"/>
+        <P T="L" p0="39" p1="40"/>
+        <P T="L" p0="40" p1="41"/>
+        <P T="L" p0="41" p1="42"/>
+        <P T="L" p0="42" p1="43"/>
+        <P T="L" p0="43" p1="44"/>
+        <P T="B" p0="44" p1="45"/>
+        <P T="B" p0="45" p1="46"/>
+        <P T="B" p0="46" p1="47"/>
+        <P T="B" p0="47" p1="48"/>
+        <P T="B" p0="48" p1="49"/>
+        <P T="B" p0="49" p1="50"/>
+        <P T="B" p0="50" p1="51"/>
+        <P T="L" p0="51" p1="0"/>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="0" Rx="2.5000045" Ry="2.4999974">
+        <XForm>1 0 0 1 148.351 65.4362</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="1" W="140.07062" H="85.77063" Cr="0">
+        <XForm>1 0 0 1 98.5675 63.2205</XForm>
+    </Shape>
+    <Notes ShowOnLoad="0" Notes=""/>
+</LightBurnProject>
