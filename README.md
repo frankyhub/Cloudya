@@ -1,6 +1,9 @@
 # Cloudya
 Internetuhr, Wetterstation und RGB-Cloud
 
+![Bild](pic/claudya.jpg)
+
+
 ## Inbetriebnahme:
 
   1. Versorge deine Cloudya mit Strom
