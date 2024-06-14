@@ -39,11 +39,11 @@ Internetuhr, Wetterstation und RGB-Cloud
 
   ### DHT11
 
-  ![Bild](pic/cdht11.png)
+![Bild](pic/c_dht11.png)
 
-  ![Bild](pic/cdht11_0.png)
+![Bild](pic/c_dht11_0.png)
 
-  ![Bild](pic/cdht11_2.png)
+![Bild](pic/c_dht11_2.png)
 
 
   ### LED Stripe
