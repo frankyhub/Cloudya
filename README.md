@@ -69,7 +69,7 @@ Zeichne mit den Abmessungen 140x85mm die Kreise der Wolke und unten ein Rechteck
 
 ### Zeichne ein Rechteck mit den Maßen 70x21mm und lege es unten auf die innere Wolke. Verbinde den schmalen Rahmen mit dem Rechteck- Pfad Vereinigung (Strg++)
 
-![Bild]/pic/wolke10.png)
+![Bild](pic/wolke10.png)
 
 
 ### Zeichen ein Rechteck mit 15mm Breite, lege es mittig in die Wolke und bilde die Differenz (Strg+-)
