@@ -1,6 +1,11 @@
 # Cloudya
 Internetuhr, Wetterstation und RGB-Cloud
 
+## Story
+Diese Anleitung beschreibt den Aufbau der Internetuhr "Cloudya". Sie beinhaltet die Internetzeit, Sommer/Winterzeitumstellung, Weckfunktion, eine RGB-LED Cloud, einen WLAN-Manager und einen WEB-Server. Die Zeit- und Datumsanzeige erfolgt über ein 4-Digit TM1637 Display und ein OLED-Display. Die RGB-LED Cloud ist über den WEB-Server steuerbar, ebenso die Weckzeit, die Helligkeit des Displays und der RGB-LEDs.
+Für die Einstellung der WLAN-Daten steht ein WLAN-Manager zur Verfügung. Nachdem in den Netzwerkeinstellungen des Handys/Tablet die "Cloudya" ausgewählt wurde, kann über die IP-Adresse 192.168.4.1 der WLAN-Manger gestartet und die WLAN-Zugangsdaten eingetragen werden. Sind die WLAN-Zugangsdaten korrekt, startet Claudya automatisch. Über die angezeigte IP-Adresse im OLED-Display ist der WEB-Server aufrufbar. Die Einstellungen sind jetzt über den WEB-Server möglich.
+
+
 ![Bild](pic/claudya.jpg)
 
 
