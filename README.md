@@ -11,7 +11,7 @@ Für die Einstellung der WLAN-Daten steht ein WLAN-Manager zur Verfügung. Nachd
 ![Bild](pic/claudya.jpg)
 
 
-## Hardware
+### Hardware
 
 | Anzahl | Bezeichnung | 
 | -------- | -------- | 
@@ -31,9 +31,9 @@ Für die Einstellung der WLAN-Daten steht ein WLAN-Manager zur Verfügung. Nachd
 | ---  | ---    |
 
 
-## Aufbau und Montage
+### Aufbau und Montage
 
-### Die Cloud-Vorlage für den Lasercutter besteht aus:
+#### Die Cloud-Vorlage für den Lasercutter besteht aus:
 
 ![Bild](pic/wolke01.png)
 
@@ -153,7 +153,7 @@ Zeichne mit den Abmessungen 140x85mm die Kreise der Wolke und unten ein Rechteck
 
 
 
-## Inbetriebnahme:
+### Inbetriebnahme:
 
   1. Versorge deine Cloudya mit Strom
   2. Warte bis das "Cloudya" WLAN erscheint (Einstellungen, WLAN, Meine Netzwerke)
