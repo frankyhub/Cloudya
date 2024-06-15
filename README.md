@@ -4,16 +4,6 @@ Internetuhr, Wetterstation und RGB-Cloud
 ![Bild](pic/claudya.jpg)
 
 
-## Inbetriebnahme:
-
-  1. Versorge deine Cloudya mit Strom
-  2. Warte bis das "Cloudya" WLAN erscheint (Einstellungen, WLAN, Meine Netzwerke)
-  3. Verbinde dich mit dem "Cloudya" WLAN und gebe 192.168.4.1 in der Adresszeile deines Webbrowsers ein (KEINE WEB/GOOGLE SUCHE)
-  4. Du solltest jetzt ein Webinterface sehen in dem du den Namen und das Passwort deines Heimnetzwerks eingeben kannst
-  5. Wenn du jetzt "Speichern" drückst, sollte sich deine Cloudya mit deinem Heimnetzwerk verbinden
-  6. Die IP Adresse wird nach dem Reboot im OLED Display und im Seriellen Monitor angezeigt.
-  7. Du kannst jetzt das Webinterface zur Steuerung des Lichts etc. aufrufen indem du die IP Adresse deiner Cloudya in der Adresszeile deines Webbrowsers eingibst.
-
 
 ## Elektronik Verbindungen
 + OLED-Display 1,3": VDD an V, GND an G, SCK an SCL, SDA an SDA,
@@ -49,5 +39,15 @@ Internetuhr, Wetterstation und RGB-Cloud
   ### LED Stripe
 
 ![Bild](pic/c_rgb.jpg)
+
+## Inbetriebnahme:
+
+  1. Versorge deine Cloudya mit Strom
+  2. Warte bis das "Cloudya" WLAN erscheint (Einstellungen, WLAN, Meine Netzwerke)
+  3. Verbinde dich mit dem "Cloudya" WLAN und gebe 192.168.4.1 in der Adresszeile deines Webbrowsers ein (KEINE WEB/GOOGLE SUCHE)
+  4. Du solltest jetzt ein Webinterface sehen in dem du den Namen und das Passwort deines Heimnetzwerks eingeben kannst
+  5. Wenn du jetzt "Speichern" drückst, sollte sich deine Cloudya mit deinem Heimnetzwerk verbinden
+  6. Die IP Adresse wird nach dem Reboot im OLED Display und im Seriellen Monitor angezeigt.
+  7. Du kannst jetzt das Webinterface zur Steuerung des Lichts etc. aufrufen indem du die IP Adresse deiner Cloudya in der Adresszeile deines Webbrowsers eingibst.
 
 ---
