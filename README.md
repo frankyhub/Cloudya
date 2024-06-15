@@ -5,7 +5,7 @@ Internetuhr, Wetterstation und RGB-Cloud
 
 
 
-## Elektronik Verbindungen
+## Verdrahtung
 + OLED-Display 1,3": VDD an V, GND an G, SCK an SCL, SDA an SDA,
 + 4-stellige LED 0.56 Display: CLK an D18, DIO an D5, 5V an 5V, GND an GND
 + LED-Stripe: Data an D14, 5V an 5V, GND an GND
