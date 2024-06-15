@@ -1,3 +1,5 @@
+<a name="oben"></a>
+
 # Cloudya
 Internetuhr, Wetterstation und RGB-Cloud
 
@@ -8,6 +10,110 @@ Für die Einstellung der WLAN-Daten steht ein WLAN-Manager zur Verfügung. Nachd
 
 ![Bild](pic/claudya.jpg)
 
+
+## Hardware
+
+| Anzahl | Bezeichnung | 
+| -------- | -------- | 
+|  1 | ESP32 NodeMCU D1 R32   |
+|  1 |  ESP32 NodeMCU D1 R32 Shield |
+|  1 |  Sperrholzplatte 300x600 x 4mm  |
+|  1 |   Cloudfolie weiß DIN A4 |
+| 8  |  Platinenhalter (3D-Druck) |
+|  2 |   KY-012 Piezo Buzzer |
+|  1 |  4-digits TM1637 Display 0,56" weiß  |
+|  1 |  1,3 Zoll OLED Display I2C SSH1106 Chip  |
+|  1 |  WS2812B LED Strip (NeoPixel)  |
+| 1  |   JST Stecker/Buchse |
+| 1  |   4polige Crimpverbindung |
+|  2 |  Stift/Buchsenleiste  |
+|   | Schaltdraht, Kleber, Kleinmaterial   |
+| ---  | ---    |
+
+
+## Aufbau und Montage
+
+### Die Cloud-Vorlage für den Lasercutter besteht aus:
+
+![Bild]/pic/wolke01.png)
+
+### Die fertige Wolke besteht aus 5 Einzelteilen (4mm Sperrholz, L=140, Dicke: 20mm) und 2 Wolkenfolien:
+
+![Bild]/pic/wolke02.png)
+
+### Erstelle die Wolkenteile mit Inkscape:
+
+Zeichne mit den Abmessungen 140x85mm die Kreise der Wolke und unten ein Rechteck.
+
+![Bild]/pic/wolke03.png)
+
+
+### Markiere alles und bilde die Vereinigung. Pfad, Vereinigung (Strg++).
+
+
+![Bild]/pic/wolke04.png)
+
+
+### Dupliziere die Wolke 3x (Strg+D): 1x Sicherheitskopie und lege 2 Wolken deckungsgleich übereinander. Wähle eine Wolke aus und bilde den dynamischen Versatz. Pfad - Dynamischer Versatz (Strg+J)
+
+![Bild]/pic/wolke05.png)
+
+### Markiere alles und bilde die Differenz - Pfad-Differenz (Strg+-). Dupliziere die Wolke 2x (Strg+D).
+
+![Bild]/pic/wolke06.png)
+
+### Erstelle mit der ersten Sicherheitskopie eine weitere Wolke mit einem kleineren Rand. Verwende erneut den dynamischen Versatz (Strg+J). Kopiere die Wolke 2x
+
+![Bild]/pic/wolke09.png)
+
+
+### Zeichne ein Rechteck mit den Maßen 70x21mm und lege es unten auf die innere Wolke. Verbinde den schmalen Rahmen mit dem Rechteck- Pfad Vereinigung (Strg++)
+
+![Bild]/pic/wolke10.png)
+
+
+### Zeichen ein Rechteck mit 15mm Breite, lege es mittig in die Wolke und bilde die Differenz (Strg+-)
+
+![Bild]/pic/wolke11.png)
+
+
+### Kopiere die Wolke 3x
+
+![Bild]/pic/wolke12.png)
+
+
+### Jetzt sind alle Einzelteile fertig gezeichnet. Fertige von allen Zeichnungen eine Kopie und lege sie zur Kontrolle übereinander. Die Konturen der Wolken müssen deckungsgleich sein.
+
+![Bild]/pic/wolke13.png)
+
+
+### Die Wolken-Elemente liegen jetzt übereinander
+
+![Bild]/pic/wolke14.png)
+
+### Jetzt sind alle Wolkenteile als Vorlage für den Lasercutter erstellt
+
+![Bild]/pic/wolke01.png)
+
+
+### 3D-Druck, sieben Abstandshalter drucken
++ Die Abstandshalter tragen den ESP32, das 4-Digit-Display und das OLED-Display. Sie werden auf den ESP32, auf das 4-Digit-Display und auf das OLED-Display geklebt..
++ Erstelle die Abstandshalter mit Tinkercad.
++ Der Abstandshalter für das OLED-Display hat die Maße 44x34x2mm Der 1. Durchbruch hat das Maß 36x24x2 und der 2. Durchbruch hat das Maß 2x17x50
+
+![Bild]/pic/oled-spacer01.png)
+
+![Bild]/pic/oled-spacer02.png)
+
+![Bild]/pic/oled-spacer03.png)
+
+![Bild]/pic/oled-spacer04.png)
+
+![Bild]/pic/oled-spacer05.png)
+
+![Bild]/pic/oled-spacer06.png)
+
+![Bild]/pic/oled-spacer07.png)
 
 
 ## Verdrahtung
@@ -45,6 +151,8 @@ Für die Einstellung der WLAN-Daten steht ein WLAN-Manager zur Verfügung. Nachd
 
 ![Bild](pic/c_rgb.jpg)
 
+
+
 ## Inbetriebnahme:
 
   1. Versorge deine Cloudya mit Strom
@@ -55,4 +163,9 @@ Für die Einstellung der WLAN-Daten steht ein WLAN-Manager zur Verfügung. Nachd
   6. Die IP Adresse wird nach dem Reboot im OLED Display und im Seriellen Monitor angezeigt.
   7. Du kannst jetzt das Webinterface zur Steuerung des Lichts etc. aufrufen indem du die IP Adresse deiner Cloudya in der Adresszeile deines Webbrowsers eingibst.
 
----
+![Bild](pic/webserver.png)
+
+
+<div style="position:absolute; left:2cm; ">   
+<ol class="breadcrumb" style="border-top: 2px solid black;border-bottom:2px solid black; height: 45px; width: 900px;"> <p align="center"><a href="#oben">nach oben</a></p></ol>
+</div
