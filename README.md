@@ -35,36 +35,36 @@ Für die Einstellung der WLAN-Daten steht ein WLAN-Manager zur Verfügung. Nachd
 
 ### Die Cloud-Vorlage für den Lasercutter besteht aus:
 
-![Bild]/pic/wolke01.png)
+![Bild](pic/wolke01.png)
 
 ### Die fertige Wolke besteht aus 5 Einzelteilen (4mm Sperrholz, L=140, Dicke: 20mm) und 2 Wolkenfolien:
 
-![Bild]/pic/wolke02.png)
+![Bild](pic/wolke02.png)
 
 ### Erstelle die Wolkenteile mit Inkscape:
 
 Zeichne mit den Abmessungen 140x85mm die Kreise der Wolke und unten ein Rechteck.
 
-![Bild]/pic/wolke03.png)
+![Bild](pic/wolke03.png)
 
 
 ### Markiere alles und bilde die Vereinigung. Pfad, Vereinigung (Strg++).
 
 
-![Bild]/pic/wolke04.png)
+![Bild](pic/wolke04.png)
 
 
 ### Dupliziere die Wolke 3x (Strg+D): 1x Sicherheitskopie und lege 2 Wolken deckungsgleich übereinander. Wähle eine Wolke aus und bilde den dynamischen Versatz. Pfad - Dynamischer Versatz (Strg+J)
 
-![Bild]/pic/wolke05.png)
+![Bild](pic/wolke05.png)
 
 ### Markiere alles und bilde die Differenz - Pfad-Differenz (Strg+-). Dupliziere die Wolke 2x (Strg+D).
 
-![Bild]/pic/wolke06.png)
+![Bild](pic/wolke06.png)
 
 ### Erstelle mit der ersten Sicherheitskopie eine weitere Wolke mit einem kleineren Rand. Verwende erneut den dynamischen Versatz (Strg+J). Kopiere die Wolke 2x
 
-![Bild]/pic/wolke09.png)
+![Bild](pic/wolke09.png)
 
 
 ### Zeichne ein Rechteck mit den Maßen 70x21mm und lege es unten auf die innere Wolke. Verbinde den schmalen Rahmen mit dem Rechteck- Pfad Vereinigung (Strg++)
@@ -74,22 +74,22 @@ Zeichne mit den Abmessungen 140x85mm die Kreise der Wolke und unten ein Rechteck
 
 ### Zeichen ein Rechteck mit 15mm Breite, lege es mittig in die Wolke und bilde die Differenz (Strg+-)
 
-![Bild]/pic/wolke11.png)
+![Bild](pic/wolke11.png)
 
 
 ### Kopiere die Wolke 3x
 
-![Bild]/pic/wolke12.png)
+![Bild](pic/wolke12.png)
 
 
 ### Jetzt sind alle Einzelteile fertig gezeichnet. Fertige von allen Zeichnungen eine Kopie und lege sie zur Kontrolle übereinander. Die Konturen der Wolken müssen deckungsgleich sein.
 
-![Bild]/pic/wolke13.png)
+![Bild](pic/wolke13.png)
 
 
 ### Die Wolken-Elemente liegen jetzt übereinander
 
-![Bild]/pic/wolke14.png)
+![Bild](pic/wolke14.png)
 
 ### Jetzt sind alle Wolkenteile als Vorlage für den Lasercutter erstellt
 
@@ -101,19 +101,19 @@ Zeichne mit den Abmessungen 140x85mm die Kreise der Wolke und unten ein Rechteck
 + Erstelle die Abstandshalter mit Tinkercad.
 + Der Abstandshalter für das OLED-Display hat die Maße 44x34x2mm Der 1. Durchbruch hat das Maß 36x24x2 und der 2. Durchbruch hat das Maß 2x17x50
 
-![Bild]/pic/oled-spacer01.png)
+![Bild](pic/oled-spacer01.png)
 
-![Bild]/pic/oled-spacer02.png)
+![Bild](pic/oled-spacer02.png)
 
-![Bild]/pic/oled-spacer03.png)
+![Bild](pic/oled-spacer03.png)
 
-![Bild]/pic/oled-spacer04.png)
+![Bild](pic/oled-spacer04.png)
 
-![Bild]/pic/oled-spacer05.png)
+![Bild](pic/oled-spacer05.png)
 
-![Bild]/pic/oled-spacer06.png)
+![Bild](pic/oled-spacer06.png)
 
-![Bild]/pic/oled-spacer07.png)
+![Bild](pic/oled-spacer07.png)
 
 
 ## Verdrahtung
