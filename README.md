@@ -93,7 +93,7 @@ Zeichne mit den Abmessungen 140x85mm die Kreise der Wolke und unten ein Rechteck
 
 ### Jetzt sind alle Wolkenteile als Vorlage für den Lasercutter erstellt
 
-![Bild]/pic/wolke01.png)
+![Bild](pic/wolke01.png)
 
 
 ### 3D-Druck, sieben Abstandshalter drucken
